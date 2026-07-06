@@ -1,4 +1,4 @@
-﻿#!/bin/bash
+#!/bin/bash
 
 echo ""
 echo "This script copies a udev rule to /etc to facilitate bringing"
