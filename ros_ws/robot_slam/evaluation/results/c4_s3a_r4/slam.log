@@ -1,0 +1,309 @@
+[0m[ INFO] [1782670510.530756843]: I0628 21:15:10.000000  1512 configuration_file_resolver.cc:41] Found '/home/robot/licenta_cosmin/catkin_ws/src/Licenta_Coldea_Cosmin/ros_ws/turtlebot3_slam/config/turtlebot3_lds_2d_no_imu.lua' for 'turtlebot3_lds_2d_no_imu.lua'.[0m
+[0m[ INFO] [1782670510.537053285]: I0628 21:15:10.000000  1512 configuration_file_resolver.cc:41] Found '/opt/ros/melodic/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.[0m
+[0m[ INFO] [1782670510.537244435]: I0628 21:15:10.000000  1512 configuration_file_resolver.cc:41] Found '/opt/ros/melodic/share/cartographer/configuration_files/map_builder.lua' for 'map_builder.lua'.[0m
+[0m[ INFO] [1782670510.537466732]: I0628 21:15:10.000000  1512 configuration_file_resolver.cc:41] Found '/opt/ros/melodic/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.[0m
+[0m[ INFO] [1782670510.537573817]: I0628 21:15:10.000000  1512 configuration_file_resolver.cc:41] Found '/opt/ros/melodic/share/cartographer/configuration_files/pose_graph.lua' for 'pose_graph.lua'.[0m
+[0m[ INFO] [1782670510.538022577]: I0628 21:15:10.000000  1512 configuration_file_resolver.cc:41] Found '/opt/ros/melodic/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.[0m
+[0m[ INFO] [1782670510.538142267]: I0628 21:15:10.000000  1512 configuration_file_resolver.cc:41] Found '/opt/ros/melodic/share/cartographer/configuration_files/trajectory_builder.lua' for 'trajectory_builder.lua'.[0m
+[0m[ INFO] [1782670510.538336074]: I0628 21:15:10.000000  1512 configuration_file_resolver.cc:41] Found '/opt/ros/melodic/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.[0m
+[0m[ INFO] [1782670510.538442170]: I0628 21:15:10.000000  1512 configuration_file_resolver.cc:41] Found '/opt/ros/melodic/share/cartographer/configuration_files/trajectory_builder_2d.lua' for 'trajectory_builder_2d.lua'.[0m
+[0m[ INFO] [1782670510.538818897]: I0628 21:15:10.000000  1512 configuration_file_resolver.cc:41] Found '/opt/ros/melodic/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.[0m
+[0m[ INFO] [1782670510.538929316]: I0628 21:15:10.000000  1512 configuration_file_resolver.cc:41] Found '/opt/ros/melodic/share/cartographer/configuration_files/trajectory_builder_3d.lua' for 'trajectory_builder_3d.lua'.[0m
+[0m[ INFO] [1782670510.562007069]: I0628 21:15:10.000000  1512 submap_2d.cc:187] Added submap 1[0m
+[0m[ INFO] [1782670510.562180562]: I0628 21:15:10.000000  1512 map_builder_bridge.cc:130] Added trajectory with ID '0'.[0m
+[0m[ INFO] [1782670522.809651863, 1782659526.288957075]: I0628 21:15:22.000000  1512 ordered_multi_queue.cc:172] All sensor data for trajectory 0 is available starting at '639182563262904675'.[0m
+[0m[ INFO] [1782670522.844157265, 1782659526.319329469]: I0628 21:15:22.000000  1512 local_trajectory_builder_2d.cc:295] Extrapolator not yet initialized.[0m
+[0m[ INFO] [1782670522.844399198, 1782659526.319329469]: I0628 21:15:22.000000  1512 local_trajectory_builder_2d.cc:138] Extrapolator is still initializing.[0m
+[0m[ INFO] [1782670525.659239006, 1782659529.134524181]: I0628 21:15:25.000000  1512 collated_trajectory_builder.cc:72] odom rate: 18.91 Hz 5.29e-02 s +/- 2.77e-04 s (pulsed at 97.69% real time)[0m
+[0m[ INFO] [1782670525.659370780, 1782659529.134524181]: I0628 21:15:25.000000  1512 collated_trajectory_builder.cc:72] scan rate: 7.70 Hz 1.30e-01 s +/- 6.18e-03 s (pulsed at 101.12% real time)[0m
+[0m[ INFO] [1782670540.679935128, 1782659544.155006443]: I0628 21:15:40.000000  1512 collated_trajectory_builder.cc:72] odom rate: 18.41 Hz 5.43e-02 s +/- 9.92e-04 s (pulsed at 100.00% real time)[0m
+[0m[ INFO] [1782670540.680055859, 1782659544.155006443]: I0628 21:15:40.000000  1512 collated_trajectory_builder.cc:72] scan rate: 7.73 Hz 1.29e-01 s +/- 6.17e-03 s (pulsed at 100.00% real time)[0m
+[0m[ INFO] [1782670555.034256176, 1782659558.508451744]: I0628 21:15:55.000000  1512 submap_2d.cc:187] Added submap 2[0m
+[0m[ INFO] [1782670555.201048634, 1782659558.679826438]: I0628 21:15:55.000000  1572 constraint_builder_2d.cc:281] 0 computations resulted in 0 additional constraints.[0m
+[0m[ INFO] [1782670555.201208690, 1782659558.679826438]: I0628 21:15:55.000000  1572 constraint_builder_2d.cc:283] Score histogram:
+Count: 0[0m
+[0m[ INFO] [1782670555.683206226, 1782659559.164035795]: I0628 21:15:55.000000  1512 collated_trajectory_builder.cc:72] odom rate: 18.21 Hz 5.49e-02 s +/- 6.93e-04 s (pulsed at 100.48% real time)[0m
+[0m[ INFO] [1782670555.683326542, 1782659559.164035795]: I0628 21:15:55.000000  1512 collated_trajectory_builder.cc:72] scan rate: 7.75 Hz 1.29e-01 s +/- 6.15e-03 s (pulsed at 99.89% real time)[0m
+[0m[ INFO] [1782670570.759003052, 1782659574.232524802]: I0628 21:16:10.000000  1512 collated_trajectory_builder.cc:72] odom rate: 18.13 Hz 5.52e-02 s +/- 6.78e-04 s (pulsed at 99.85% real time)[0m
+[0m[ INFO] [1782670570.759124982, 1782659574.232524802]: I0628 21:16:10.000000  1512 collated_trajectory_builder.cc:72] scan rate: 7.75 Hz 1.29e-01 s +/- 6.16e-03 s (pulsed at 100.15% real time)[0m
+[0m[ INFO] [1782670572.080099188, 1782659575.553590886]: I0628 21:16:12.000000  1512 submap_2d.cc:187] Added submap 3[0m
+[0m[ INFO] [1782670572.253899718, 1782659575.735066326]: I0628 21:16:12.000000  1570 constraint_builder_2d.cc:266] Node (0, 180) with 103 points on submap (0, 0) differs by translation 0.01 rotation 0.007 with score 85.0%.[0m
+[0m[ INFO] [1782670572.356769609, 1782659575.836008465]: I0628 21:16:12.000000  1574 constraint_builder_2d.cc:281] 1 computations resulted in 1 additional constraints.[0m
+[0m[ INFO] [1782670572.356870861, 1782659575.836008465]: I0628 21:16:12.000000  1574 constraint_builder_2d.cc:283] Score histogram:
+Count: 1  Min: 0.850474  Max: 0.850474  Mean: 0.850474[0m
+[0m[ INFO] [1782670572.580465988, 1782659576.057629381]: I0628 21:16:12.000000  1575 constraint_builder_2d.cc:266] Node (0, 183) with 102 points on submap (0, 0) differs by translation 0.01 rotation 0.016 with score 86.9%.[0m
+[0m[ INFO] [1782670573.023768706, 1782659576.501361276]: I0628 21:16:13.000000  1572 constraint_builder_2d.cc:266] Node (0, 186) with 110 points on submap (0, 0) differs by translation 0.01 rotation 0.010 with score 82.6%.[0m
+[0m[ INFO] [1782670573.522455051, 1782659576.995200638]: I0628 21:16:13.000000  1574 constraint_builder_2d.cc:266] Node (0, 190) with 109 points on submap (0, 0) differs by translation 0.02 rotation 0.000 with score 80.6%.[0m
+[0m[ INFO] [1782670573.908584259, 1782659577.388615164]: I0628 21:16:13.000000  1570 constraint_builder_2d.cc:266] Node (0, 193) with 107 points on submap (0, 0) differs by translation 0.02 rotation 0.004 with score 78.1%.[0m
+[0m[ INFO] [1782670574.292894937, 1782659577.771953008]: I0628 21:16:14.000000  1574 constraint_builder_2d.cc:266] Node (0, 196) with 107 points on submap (0, 0) differs by translation 0.01 rotation 0.005 with score 79.5%.[0m
+[0m[ INFO] [1782670574.789663844, 1782659578.265537990]: I0628 21:16:14.000000  1570 constraint_builder_2d.cc:266] Node (0, 200) with 105 points on submap (0, 0) differs by translation 0.01 rotation 0.014 with score 79.7%.[0m
+[0m[ INFO] [1782670575.177543612, 1782659578.659001319]: I0628 21:16:15.000000  1574 constraint_builder_2d.cc:266] Node (0, 203) with 103 points on submap (0, 0) differs by translation 0.01 rotation 0.003 with score 80.7%.[0m
+[0m[ INFO] [1782670575.563275467, 1782659579.042663024]: I0628 21:16:15.000000  1575 constraint_builder_2d.cc:266] Node (0, 206) with 100 points on submap (0, 0) differs by translation 0.01 rotation 0.010 with score 78.8%.[0m
+[0m[ INFO] [1782670576.999970892, 1782659580.473953433]: I0628 21:16:16.000000  1575 constraint_builder_2d.cc:266] Node (0, 210) with 103 points on submap (0, 0) differs by translation 0.01 rotation 0.011 with score 82.0%.[0m
+[0m[ INFO] [1782670579.317576626, 1782659582.793203579]: I0628 21:16:19.000000  1575 constraint_builder_2d.cc:266] Node (0, 213) with 104 points on submap (0, 0) differs by translation 0.01 rotation 0.004 with score 79.7%.[0m
+[0m[ INFO] [1782670580.090409795, 1782659583.570407834]: I0628 21:16:20.000000  1574 constraint_builder_2d.cc:266] Node (0, 216) with 107 points on submap (0, 0) differs by translation 0.01 rotation 0.011 with score 77.6%.[0m
+[0m[ INFO] [1782670581.246944096, 1782659584.720052035]: I0628 21:16:21.000000  1575 constraint_builder_2d.cc:266] Node (0, 220) with 104 points on submap (0, 0) differs by translation 0.01 rotation 0.007 with score 78.1%.[0m
+[0m[ INFO] [1782670583.342483957, 1782659586.817075054]: I0628 21:16:23.000000  1570 constraint_builder_2d.cc:266] Node (0, 223) with 107 points on submap (0, 0) differs by translation 0.01 rotation 0.031 with score 79.1%.[0m
+[0m[ INFO] [1782670584.223616043, 1782659587.704333161]: I0628 21:16:24.000000  1574 constraint_builder_2d.cc:266] Node (0, 226) with 102 points on submap (0, 0) differs by translation 0.01 rotation 0.021 with score 77.6%.[0m
+[0m[ INFO] [1782670585.853444823, 1782659589.327996961]: I0628 21:16:25.000000  1512 collated_trajectory_builder.cc:72] odom rate: 18.12 Hz 5.52e-02 s +/- 7.36e-04 s (pulsed at 99.91% real time)[0m
+[0m[ INFO] [1782670585.853563472, 1782659589.327996961]: I0628 21:16:25.000000  1512 collated_trajectory_builder.cc:72] scan rate: 7.75 Hz 1.29e-01 s +/- 6.18e-03 s (pulsed at 100.09% real time)[0m
+[0m[ INFO] [1782670587.480275255, 1782659590.956302790]: I0628 21:16:27.000000  1570 constraint_builder_2d.cc:266] Node (0, 230) with 100 points on submap (0, 0) differs by translation 0.01 rotation 0.006 with score 79.4%.[0m
+[0m[ INFO] [1782670587.584401841, 1782659591.057026123]: I0628 21:16:27.000000  1512 motion_filter.cc:42] Motion filter reduced the number of nodes to 46.2%.[0m
+[0m[ INFO] [1782670587.812413055, 1782659591.288874245]: I0628 21:16:27.000000  1575 constraint_builder_2d.cc:266] Node (0, 233) with 105 points on submap (0, 0) differs by translation 0.01 rotation 0.004 with score 77.9%.[0m
+[0m[ INFO] [1782670588.199530253, 1782659591.672147088]: I0628 21:16:28.000000  1574 constraint_builder_2d.cc:266] Node (0, 236) with 112 points on submap (0, 0) differs by translation 0.02 rotation 0.017 with score 76.2%.[0m
+[0m[ INFO] [1782670588.748611521, 1782659592.227611466]: I0628 21:16:28.000000  1570 constraint_builder_2d.cc:266] Node (0, 240) with 105 points on submap (0, 0) differs by translation 0.02 rotation 0.000 with score 76.6%.[0m
+[0m[ INFO] [1782670589.138045177, 1782659592.611065093]: I0628 21:16:29.000000  1574 constraint_builder_2d.cc:266] Node (0, 243) with 102 points on submap (0, 0) differs by translation 0.02 rotation 0.023 with score 74.8%.[0m
+[0m[ INFO] [1782670589.525061540, 1782659593.004084454]: I0628 21:16:29.000000  1574 constraint_builder_2d.cc:266] Node (0, 246) with 100 points on submap (0, 0) differs by translation 0.02 rotation 0.010 with score 72.8%.[0m
+[0m[ INFO] [1782670590.020860478, 1782659593.498131895]: I0628 21:16:30.000000  1574 constraint_builder_2d.cc:266] Node (0, 250) with 104 points on submap (0, 0) differs by translation 0.02 rotation 0.020 with score 75.0%.[0m
+[0m[ INFO] [1782670590.406582698, 1782659593.881806048]: I0628 21:16:30.000000  1570 constraint_builder_2d.cc:266] Node (0, 253) with 101 points on submap (0, 0) differs by translation 0.02 rotation 0.025 with score 74.3%.[0m
+[0m[ INFO] [1782670590.792730448, 1782659594.264968211]: I0628 21:16:30.000000  1575 constraint_builder_2d.cc:266] Node (0, 256) with 100 points on submap (0, 0) differs by translation 0.02 rotation 0.010 with score 74.5%.[0m
+[0m[ INFO] [1782670591.346184521, 1782659594.822157940]: I0628 21:16:31.000000  1575 constraint_builder_2d.cc:266] Node (0, 260) with 102 points on submap (0, 0) differs by translation 0.02 rotation 0.005 with score 75.8%.[0m
+[0m[ INFO] [1782670591.678003615, 1782659595.155494985]: I0628 21:16:31.000000  1570 constraint_builder_2d.cc:266] Node (0, 263) with 109 points on submap (0, 0) differs by translation 0.02 rotation 0.013 with score 77.6%.[0m
+[0m[ INFO] [1782670592.064127406, 1782659595.538537978]: I0628 21:16:32.000000  1572 constraint_builder_2d.cc:266] Node (0, 266) with 101 points on submap (0, 0) differs by translation 0.02 rotation 0.020 with score 76.4%.[0m
+[0m[ INFO] [1782670592.501263581, 1782659595.981838665]: I0628 21:16:32.000000  1512 submap_2d.cc:187] Added submap 4[0m
+[0m[ INFO] [1782670592.509403918, 1782659595.981838665]: I0628 21:16:32.000000  1572 constraint_builder_2d.cc:266] Node (0, 10) with 102 points on submap (0, 1) differs by translation 0.04 rotation 0.012 with score 73.3%.[0m
+[0m[ INFO] [1782670592.511237553, 1782659595.991915608]: I0628 21:16:32.000000  1574 constraint_builder_2d.cc:266] Node (0, 0) with 107 points on submap (0, 1) differs by translation 0.06 rotation 0.035 with score 75.2%.[0m
+[0m[ INFO] [1782670592.513364892, 1782659595.991915608]: I0628 21:16:32.000000  1572 constraint_builder_2d.cc:266] Node (0, 13) with 104 points on submap (0, 1) differs by translation 0.04 rotation 0.024 with score 72.4%.[0m
+[0m[ INFO] [1782670592.513468123, 1782659595.991915608]: I0628 21:16:32.000000  1575 constraint_builder_2d.cc:266] Node (0, 6) with 103 points on submap (0, 1) differs by translation 0.06 rotation 0.035 with score 76.6%.[0m
+[0m[ INFO] [1782670592.515265663, 1782659595.991915608]: I0628 21:16:32.000000  1574 constraint_builder_2d.cc:266] Node (0, 16) with 104 points on submap (0, 1) differs by translation 0.03 rotation 0.022 with score 69.7%.[0m
+[0m[ INFO] [1782670592.517934889, 1782659595.991915608]: I0628 21:16:32.000000  1570 constraint_builder_2d.cc:266] Node (0, 3) with 108 points on submap (0, 1) differs by translation 0.06 rotation 0.021 with score 72.2%.[0m
+[0m[ INFO] [1782670592.518256511, 1782659595.991915608]: I0628 21:16:32.000000  1572 constraint_builder_2d.cc:266] Node (0, 20) with 103 points on submap (0, 1) differs by translation 0.03 rotation 0.017 with score 70.9%.[0m
+[0m[ INFO] [1782670592.520325724, 1782659596.001994374]: I0628 21:16:32.000000  1574 constraint_builder_2d.cc:266] Node (0, 26) with 101 points on submap (0, 1) differs by translation 0.03 rotation 0.025 with score 72.1%.[0m
+[0m[ INFO] [1782670592.522590409, 1782659596.001994374]: I0628 21:16:32.000000  1570 constraint_builder_2d.cc:266] Node (0, 30) with 100 points on submap (0, 1) differs by translation 0.02 rotation 0.013 with score 74.3%.[0m
+[0m[ INFO] [1782670592.523347874, 1782659596.001994374]: I0628 21:16:32.000000  1572 constraint_builder_2d.cc:266] Node (0, 33) with 106 points on submap (0, 1) differs by translation 0.02 rotation 0.013 with score 76.2%.[0m
+[0m[ INFO] [1782670592.524779729, 1782659596.001994374]: I0628 21:16:32.000000  1574 constraint_builder_2d.cc:266] Node (0, 36) with 102 points on submap (0, 1) differs by translation 0.02 rotation 0.006 with score 76.4%.[0m
+[0m[ INFO] [1782670592.525775272, 1782659596.001994374]: I0628 21:16:32.000000  1575 constraint_builder_2d.cc:266] Node (0, 23) with 102 points on submap (0, 1) differs by translation 0.03 rotation 0.013 with score 72.1%.[0m
+[0m[ INFO] [1782670592.528241733, 1782659596.001994374]: I0628 21:16:32.000000  1572 constraint_builder_2d.cc:266] Node (0, 43) with 102 points on submap (0, 1) differs by translation 0.01 rotation 0.003 with score 78.9%.[0m
+[0m[ INFO] [1782670592.529387019, 1782659596.001994374]: I0628 21:16:32.000000  1575 constraint_builder_2d.cc:266] Node (0, 50) with 100 points on submap (0, 1) differs by translation 0.01 rotation 0.023 with score 80.0%.[0m
+[0m[ INFO] [1782670592.529770673, 1782659596.001994374]: I0628 21:16:32.000000  1574 constraint_builder_2d.cc:266] Node (0, 46) with 108 points on submap (0, 1) differs by translation 0.01 rotation 0.017 with score 78.8%.[0m
+[0m[ INFO] [1782670592.531737904, 1782659596.012067670]: I0628 21:16:32.000000  1570 constraint_builder_2d.cc:266] Node (0, 40) with 100 points on submap (0, 1) differs by translation 0.01 rotation 0.002 with score 81.4%.[0m
+[0m[ INFO] [1782670592.534172594, 1782659596.012067670]: I0628 21:16:32.000000  1572 constraint_builder_2d.cc:266] Node (0, 53) with 111 points on submap (0, 1) differs by translation 0.01 rotation 0.025 with score 81.1%.[0m
+[0m[ INFO] [1782670592.534836567, 1782659596.012067670]: I0628 21:16:32.000000  1574 constraint_builder_2d.cc:266] Node (0, 60) with 107 points on submap (0, 1) differs by translation 0.02 rotation 0.025 with score 81.6%.[0m
+[0m[ INFO] [1782670592.536767079, 1782659596.012067670]: I0628 21:16:32.000000  1575 constraint_builder_2d.cc:266] Node (0, 56) with 106 points on submap (0, 1) differs by translation 0.01 rotation 0.023 with score 81.7%.[0m
+[0m[ INFO] [1782670592.539315729, 1782659596.012067670]: I0628 21:16:32.000000  1574 constraint_builder_2d.cc:266] Node (0, 70) with 105 points on submap (0, 1) differs by translation 0.01 rotation 0.035 with score 79.7%.[0m
+[0m[ INFO] [1782670592.539797407, 1782659596.012067670]: I0628 21:16:32.000000  1572 constraint_builder_2d.cc:266] Node (0, 66) with 105 points on submap (0, 1) differs by translation 0.02 rotation 0.026 with score 81.1%.[0m
+[0m[ INFO] [1782670592.543907029, 1782659596.022160134]: I0628 21:16:32.000000  1574 constraint_builder_2d.cc:266] Node (0, 76) with 104 points on submap (0, 1) differs by translation 0.02 rotation 0.036 with score 81.4%.[0m
+[0m[ INFO] [1782670592.544023490, 1782659596.022160134]: I0628 21:16:32.000000  1575 constraint_builder_2d.cc:266] Node (0, 73) with 100 points on submap (0, 1) differs by translation 0.02 rotation 0.036 with score 79.6%.[0m
+[0m[ INFO] [1782670592.545009762, 1782659596.022160134]: I0628 21:16:32.000000  1572 constraint_builder_2d.cc:266] Node (0, 80) with 103 points on submap (0, 1) differs by translation 0.02 rotation 0.019 with score 81.8%.[0m
+[0m[ INFO] [1782670592.548101497, 1782659596.022160134]: I0628 21:16:32.000000  1575 constraint_builder_2d.cc:266] Node (0, 86) with 103 points on submap (0, 1) differs by translation 0.01 rotation 0.010 with score 83.9%.[0m
+[0m[ INFO] [1782670592.548200145, 1782659596.022160134]: I0628 21:16:32.000000  1570 constraint_builder_2d.cc:266] Node (0, 63) with 106 points on submap (0, 1) differs by translation 0.02 rotation 0.024 with score 82.2%.[0m
+[0m[ INFO] [1782670592.548767658, 1782659596.022160134]: I0628 21:16:32.000000  1574 constraint_builder_2d.cc:266] Node (0, 83) with 101 points on submap (0, 1) differs by translation 0.01 rotation 0.025 with score 85.5%.[0m
+[0m[ INFO] [1782670592.618220191, 1782659596.092695452]: I0628 21:16:32.000000  1572 constraint_builder_2d.cc:266] Node (0, 270) with 104 points on submap (0, 0) differs by translation 0.04 rotation 0.044 with score 78.0%.[0m
+[0m[ INFO] [1782670592.728715877, 1782659596.203566615]: I0628 21:16:32.000000  1574 constraint_builder_2d.cc:266] Node (0, 271) with 105 points on submap (0, 1) differs by translation 0.02 rotation 0.035 with score 81.0%.[0m
+[0m[ INFO] [1782670592.890038994, 1782659596.364948535]: I0628 21:16:32.000000  1575 constraint_builder_2d.cc:281] 55 computations resulted in 55 additional constraints.[0m
+[0m[ INFO] [1782670592.890228321, 1782659596.364948535]: I0628 21:16:32.000000  1575 constraint_builder_2d.cc:283] Score histogram:
+Count: 56  Min: 0.696591  Max: 0.868720  Mean: 0.781515
+[0.696591, 0.713804)	                   #	Count: 2 (3.571429%)	Total: 2 (3.571429%)
+[0.713804, 0.731017)	                  ##	Count: 5 (8.928572%)	Total: 7 (12.500000%)
+[0.731017, 0.748230)	                  ##	Count: 5 (8.928572%)	Total: 12 (21.428572%)
+[0.748230, 0.765443)	                 ###	Count: 7 (12.500000%)	Total: 19 (33.928570%)
+[0.765443, 0.782655)	                 ###	Count: 9 (16.071428%)	Total: 28 (50.000000%)
+[0.782655, 0.799868)	                ####	Count: 10 (17.857143%)	Total: 38 (67.857140%)
+[0.799868, 0.817081)	                 ###	Count: 9 (16.071428%)	Total: 47 (83.928574%)
+[0.817081, 0.834294)	                  ##	Count: 5 (8.928572%)	Total: 52 (92.857140%)
+[0.834294, 0.851507)	                   #	Count: 2 (3.571429%)	Total: 54 (96.428574%)
+[0.851507, 0.868720]	                   #	Count: 2 (3.571429%)	Total: 56 (100.000000%)[0m
+[0m[ INFO] [1782670593.004355024, 1782659596.486025862]: I0628 21:16:33.000000  1572 constraint_builder_2d.cc:266] Node (0, 273) with 101 points on submap (0, 0) differs by translation 0.01 rotation 0.005 with score 80.6%.[0m
+[0m[ INFO] [1782670593.279935265, 1782659596.758549784]: I0628 21:16:33.000000  1574 constraint_builder_2d.cc:266] Node (0, 275) with 103 points on submap (0, 0) differs by translation 0.01 rotation 0.011 with score 79.3%.[0m
+[0m[ INFO] [1782670593.389840989, 1782659596.870057315]: I0628 21:16:33.000000  1572 constraint_builder_2d.cc:266] Node (0, 276) with 102 points on submap (0, 1) differs by translation 0.01 rotation 0.012 with score 85.6%.[0m
+[0m[ INFO] [1782670593.667922899, 1782659597.142368420]: I0628 21:16:33.000000  1575 constraint_builder_2d.cc:266] Node (0, 278) with 104 points on submap (0, 0) differs by translation 0.01 rotation 0.012 with score 79.0%.[0m
+[0m[ INFO] [1782670593.887597574, 1782659597.364211580]: I0628 21:16:33.000000  1575 constraint_builder_2d.cc:266] Node (0, 280) with 102 points on submap (0, 0) differs by translation 0.01 rotation 0.012 with score 78.8%.[0m
+[0m[ INFO] [1782670594.054414042, 1782659597.535747112]: I0628 21:16:34.000000  1572 constraint_builder_2d.cc:266] Node (0, 281) with 101 points on submap (0, 1) differs by translation 0.02 rotation 0.027 with score 83.7%.[0m
+[0m[ INFO] [1782670594.275982770, 1782659597.747303429]: I0628 21:16:34.000000  1574 constraint_builder_2d.cc:266] Node (0, 283) with 104 points on submap (0, 0) differs by translation 0.01 rotation 0.019 with score 79.6%.[0m
+[0m[ INFO] [1782670594.552020676, 1782659598.029444544]: I0628 21:16:34.000000  1575 constraint_builder_2d.cc:266] Node (0, 285) with 109 points on submap (0, 0) differs by translation 0.01 rotation 0.025 with score 80.2%.[0m
+[0m[ INFO] [1782670594.662544018, 1782659598.140302686]: I0628 21:16:34.000000  1575 constraint_builder_2d.cc:266] Node (0, 286) with 102 points on submap (0, 1) differs by translation 0.02 rotation 0.038 with score 82.8%.[0m
+[0m[ INFO] [1782670594.939530488, 1782659598.412460037]: I0628 21:16:34.000000  1572 constraint_builder_2d.cc:266] Node (0, 288) with 105 points on submap (0, 0) differs by translation 0.01 rotation 0.023 with score 79.0%.[0m
+[0m[ INFO] [1782670595.214610508, 1782659598.694542714]: I0628 21:16:35.000000  1575 constraint_builder_2d.cc:266] Node (0, 290) with 103 points on submap (0, 0) differs by translation 0.01 rotation 0.008 with score 79.4%.[0m
+[0m[ INFO] [1782670595.326644822, 1782659598.805395230]: I0628 21:16:35.000000  1572 constraint_builder_2d.cc:266] Node (0, 291) with 112 points on submap (0, 1) differs by translation 0.02 rotation 0.025 with score 80.3%.[0m
+[0m[ INFO] [1782670595.547155869, 1782659599.027009687]: I0628 21:16:35.000000  1574 constraint_builder_2d.cc:266] Node (0, 293) with 103 points on submap (0, 0) differs by translation 0.01 rotation 0.010 with score 77.5%.[0m
+[0m[ INFO] [1782670595.823556075, 1782659599.299189122]: I0628 21:16:35.000000  1572 constraint_builder_2d.cc:266] Node (0, 295) with 108 points on submap (0, 0) differs by translation 0.01 rotation 0.012 with score 78.4%.[0m
+[0m[ INFO] [1782670595.990394367, 1782659599.470766322]: I0628 21:16:35.000000  1574 constraint_builder_2d.cc:266] Node (0, 296) with 107 points on submap (0, 1) differs by translation 0.02 rotation 0.024 with score 78.0%.[0m
+[0m[ INFO] [1782670596.210241129, 1782659599.682595249]: I0628 21:16:36.000000  1575 constraint_builder_2d.cc:266] Node (0, 298) with 103 points on submap (0, 0) differs by translation 0.01 rotation 0.013 with score 78.5%.[0m
+[0m[ INFO] [1782670596.486705764, 1782659599.965524559]: I0628 21:16:36.000000  1575 constraint_builder_2d.cc:266] Node (0, 300) with 106 points on submap (0, 0) differs by translation 0.01 rotation 0.014 with score 74.8%.[0m
+[0m[ INFO] [1782670596.598111157, 1782659600.076417076]: I0628 21:16:36.000000  1570 constraint_builder_2d.cc:266] Node (0, 301) with 100 points on submap (0, 1) differs by translation 0.02 rotation 0.034 with score 76.5%.[0m
+[0m[ INFO] [1782670596.874199794, 1782659600.349203035]: I0628 21:16:36.000000  1575 constraint_builder_2d.cc:266] Node (0, 303) with 100 points on submap (0, 0) differs by translation 0.01 rotation 0.019 with score 77.7%.[0m
+[0m[ INFO] [1782670597.260628436, 1782659600.732559057]: I0628 21:16:37.000000  1574 constraint_builder_2d.cc:266] Node (0, 305) with 100 points on submap (0, 0) differs by translation 0.01 rotation 0.003 with score 75.6%.[0m
+[0m[ INFO] [1782670597.647905534, 1782659601.125396799]: I0628 21:16:37.000000  1574 constraint_builder_2d.cc:266] Node (0, 306) with 100 points on submap (0, 1) differs by translation 0.03 rotation 0.036 with score 74.7%.[0m
+[0m[ INFO] [1782670598.585765495, 1782659602.063569319]: I0628 21:16:38.000000  1572 constraint_builder_2d.cc:266] Node (0, 308) with 102 points on submap (0, 0) differs by translation 0.01 rotation 0.011 with score 77.2%.[0m
+[0m[ INFO] [1782670599.194705697, 1782659602.668936526]: I0628 21:16:39.000000  1574 constraint_builder_2d.cc:266] Node (0, 310) with 101 points on submap (0, 0) differs by translation 0.01 rotation 0.003 with score 78.7%.[0m
+[0m[ INFO] [1782670599.358972369, 1782659602.831185393]: I0628 21:16:39.000000  1575 constraint_builder_2d.cc:266] Node (0, 311) with 100 points on submap (0, 1) differs by translation 0.02 rotation 0.020 with score 76.8%.[0m
+[0m[ INFO] [1782670599.581674872, 1782659603.062848146]: I0628 21:16:39.000000  1570 constraint_builder_2d.cc:266] Node (0, 313) with 102 points on submap (0, 0) differs by translation 0.01 rotation 0.011 with score 80.2%.[0m
+[0m[ INFO] [1782670599.855290954, 1782659603.335076489]: I0628 21:16:39.000000  1570 constraint_builder_2d.cc:266] Node (0, 315) with 101 points on submap (0, 0) differs by translation 0.01 rotation 0.003 with score 82.1%.[0m
+[0m[ INFO] [1782670599.966280713, 1782659603.446039893]: I0628 21:16:39.000000  1575 constraint_builder_2d.cc:266] Node (0, 316) with 105 points on submap (0, 1) differs by translation 0.02 rotation 0.015 with score 77.9%.[0m
+[0m[ INFO] [1782670600.242601855, 1782659603.718557253]: I0628 21:16:40.000000  1572 constraint_builder_2d.cc:266] Node (0, 318) with 104 points on submap (0, 0) differs by translation 0.00 rotation 0.008 with score 81.7%.[0m
+[0m[ INFO] [1782670600.461606410, 1782659603.940497863]: I0628 21:16:40.000000  1575 constraint_builder_2d.cc:266] Node (0, 320) with 103 points on submap (0, 0) differs by translation 0.01 rotation 0.010 with score 81.3%.[0m
+[0m[ INFO] [1782670600.628887785, 1782659604.101837439]: I0628 21:16:40.000000  1572 constraint_builder_2d.cc:266] Node (0, 321) with 107 points on submap (0, 1) differs by translation 0.03 rotation 0.027 with score 74.6%.[0m
+[0m[ INFO] [1782670600.889146747, 1782659604.363814043]: I0628 21:16:40.000000  1512 collated_trajectory_builder.cc:72] odom rate: 18.11 Hz 5.52e-02 s +/- 7.96e-04 s (pulsed at 100.63% real time)[0m
+[0m[ INFO] [1782670600.889284823, 1782659604.363814043]: I0628 21:16:40.000000  1512 collated_trajectory_builder.cc:72] scan rate: 7.68 Hz 1.30e-01 s +/- 1.35e-02 s (pulsed at 99.94% real time)[0m
+[0m[ INFO] [1782670600.905019756, 1782659604.384037566]: I0628 21:16:40.000000  1574 constraint_builder_2d.cc:266] Node (0, 323) with 103 points on submap (0, 0) differs by translation 0.01 rotation 0.012 with score 82.2%.[0m
+[0m[ INFO] [1782670601.125615909, 1782659604.606046094]: I0628 21:16:41.000000  1570 constraint_builder_2d.cc:266] Node (0, 325) with 100 points on submap (0, 0) differs by translation 0.01 rotation 0.015 with score 81.7%.[0m
+[0m[ INFO] [1782670601.233949151, 1782659604.711575367]: I0628 21:16:41.000000  1574 constraint_builder_2d.cc:266] Node (0, 326) with 103 points on submap (0, 1) differs by translation 0.03 rotation 0.023 with score 76.1%.[0m
+[0m[ INFO] [1782670601.510139092, 1782659604.984003506]: I0628 21:16:41.000000  1572 constraint_builder_2d.cc:266] Node (0, 328) with 111 points on submap (0, 0) differs by translation 0.01 rotation 0.015 with score 78.8%.[0m
+[0m[ INFO] [1782670601.787172646, 1782659605.266229571]: I0628 21:16:41.000000  1575 constraint_builder_2d.cc:266] Node (0, 330) with 108 points on submap (0, 0) differs by translation 0.01 rotation 0.013 with score 79.5%.[0m
+[0m[ INFO] [1782670601.896872793, 1782659605.377024742]: I0628 21:16:41.000000  1574 constraint_builder_2d.cc:266] Node (0, 331) with 101 points on submap (0, 1) differs by translation 0.03 rotation 0.027 with score 74.1%.[0m
+[0m[ INFO] [1782670602.283689151, 1782659605.760729365]: I0628 21:16:42.000000  1574 constraint_builder_2d.cc:266] Node (0, 333) with 103 points on submap (0, 0) differs by translation 0.01 rotation 0.001 with score 81.8%.[0m
+[0m[ INFO] [1782670602.558484530, 1782659606.033242662]: I0628 21:16:42.000000  1575 constraint_builder_2d.cc:266] Node (0, 335) with 101 points on submap (0, 0) differs by translation 0.01 rotation 0.003 with score 81.1%.[0m
+[0m[ INFO] [1782670602.669150740, 1782659606.144039239]: I0628 21:16:42.000000  1574 constraint_builder_2d.cc:266] Node (0, 336) with 106 points on submap (0, 1) differs by translation 0.02 rotation 0.007 with score 72.3%.[0m
+[0m[ INFO] [1782670602.947053272, 1782659606.426908131]: I0628 21:16:42.000000  1572 constraint_builder_2d.cc:266] Node (0, 338) with 103 points on submap (0, 0) differs by translation 0.01 rotation 0.010 with score 79.6%.[0m
+[0m[ INFO] [1782670603.222784036, 1782659606.699907950]: I0628 21:16:43.000000  1570 constraint_builder_2d.cc:266] Node (0, 340) with 105 points on submap (0, 0) differs by translation 0.00 rotation 0.002 with score 80.6%.[0m
+[0m[ INFO] [1782670603.332035058, 1782659606.810810779]: I0628 21:16:43.000000  1574 constraint_builder_2d.cc:266] Node (0, 341) with 105 points on submap (0, 1) differs by translation 0.02 rotation 0.006 with score 75.3%.[0m
+[0m[ INFO] [1782670603.609205803, 1782659607.083076623]: I0628 21:16:43.000000  1575 constraint_builder_2d.cc:266] Node (0, 343) with 103 points on submap (0, 0) differs by translation 0.01 rotation 0.005 with score 78.6%.[0m
+[0m[ INFO] [1782670603.828475572, 1782659607.304932596]: I0628 21:16:43.000000  1572 constraint_builder_2d.cc:266] Node (0, 345) with 104 points on submap (0, 0) differs by translation 0.01 rotation 0.010 with score 78.5%.[0m
+[0m[ INFO] [1782670603.995213758, 1782659607.476684070]: I0628 21:16:43.000000  1574 constraint_builder_2d.cc:266] Node (0, 346) with 101 points on submap (0, 1) differs by translation 0.02 rotation 0.000 with score 74.0%.[0m
+[0m[ INFO] [1782670604.380487530, 1782659607.860374734]: I0628 21:16:44.000000  1570 constraint_builder_2d.cc:266] Node (0, 348) with 103 points on submap (0, 0) differs by translation 0.01 rotation 0.006 with score 76.4%.[0m
+[0m[ INFO] [1782670604.876237143, 1782659608.354382330]: I0628 21:16:44.000000  1570 constraint_builder_2d.cc:266] Node (0, 350) with 104 points on submap (0, 0) differs by translation 0.01 rotation 0.002 with score 77.2%.[0m
+[0m[ INFO] [1782670605.154490568, 1782659608.626494993]: I0628 21:16:45.000000  1574 constraint_builder_2d.cc:266] Node (0, 351) with 100 points on submap (0, 1) differs by translation 0.02 rotation 0.005 with score 72.4%.[0m
+[0m[ INFO] [1782670605.374094095, 1782659608.848593315]: I0628 21:16:45.000000  1570 constraint_builder_2d.cc:266] Node (0, 353) with 103 points on submap (0, 0) differs by translation 0.01 rotation 0.007 with score 78.1%.[0m
+[0m[ INFO] [1782670605.652345593, 1782659609.131088448]: I0628 21:16:45.000000  1572 constraint_builder_2d.cc:266] Node (0, 355) with 103 points on submap (0, 0) differs by translation 0.01 rotation 0.002 with score 79.6%.[0m
+[0m[ INFO] [1782670605.818855283, 1782659609.292176248]: I0628 21:16:45.000000  1575 constraint_builder_2d.cc:266] Node (0, 356) with 101 points on submap (0, 1) differs by translation 0.02 rotation 0.011 with score 75.1%.[0m
+[0m[ INFO] [1782670606.149784462, 1782659609.624669368]: I0628 21:16:46.000000  1572 constraint_builder_2d.cc:266] Node (0, 358) with 103 points on submap (0, 0) differs by translation 0.01 rotation 0.004 with score 76.2%.[0m
+[0m[ INFO] [1782670606.310682987, 1782659609.786144155]: I0628 21:16:46.000000  1512 submap_2d.cc:187] Added submap 5[0m
+[0m[ INFO] [1782670606.319158904, 1782659609.796212868]: I0628 21:16:46.000000  1574 constraint_builder_2d.cc:266] Node (0, 86) with 103 points on submap (0, 2) differs by translation 0.03 rotation 0.018 with score 76.5%.[0m
+[0m[ INFO] [1782670606.319746834, 1782659609.796212868]: I0628 21:16:46.000000  1575 constraint_builder_2d.cc:266] Node (0, 80) with 103 points on submap (0, 2) differs by translation 0.03 rotation 0.022 with score 75.3%.[0m
+[0m[ INFO] [1782670606.319947255, 1782659609.796212868]: I0628 21:16:46.000000  1570 constraint_builder_2d.cc:266] Node (0, 83) with 101 points on submap (0, 2) differs by translation 0.03 rotation 0.031 with score 74.3%.[0m
+[0m[ INFO] [1782670606.320621593, 1782659609.796212868]: I0628 21:16:46.000000  1572 constraint_builder_2d.cc:266] Node (0, 90) with 105 points on submap (0, 2) differs by translation 0.04 rotation 0.015 with score 75.5%.[0m
+[0m[ INFO] [1782670606.323785257, 1782659609.796212868]: I0628 21:16:46.000000  1574 constraint_builder_2d.cc:266] Node (0, 93) with 108 points on submap (0, 2) differs by translation 0.04 rotation 0.019 with score 77.6%.[0m
+[0m[ INFO] [1782670606.324790696, 1782659609.806290019]: I0628 21:16:46.000000  1570 constraint_builder_2d.cc:266] Node (0, 100) with 101 points on submap (0, 2) differs by translation 0.04 rotation 0.029 with score 71.4%.[0m
+[0m[ INFO] [1782670606.325335812, 1782659609.806290019]: I0628 21:16:46.000000  1575 constraint_builder_2d.cc:266] Node (0, 96) with 102 points on submap (0, 2) differs by translation 0.04 rotation 0.024 with score 71.1%.[0m
+[0m[ INFO] [1782670606.326546933, 1782659609.806290019]: I0628 21:16:46.000000  1572 constraint_builder_2d.cc:266] Node (0, 103) with 104 points on submap (0, 2) differs by translation 0.04 rotation 0.034 with score 70.0%.[0m
+[0m[ INFO] [1782670606.328895631, 1782659609.806290019]: I0628 21:16:46.000000  1574 constraint_builder_2d.cc:266] Node (0, 106) with 106 points on submap (0, 2) differs by translation 0.04 rotation 0.032 with score 72.4%.[0m
+[0m[ INFO] [1782670606.330184670, 1782659609.806290019]: I0628 21:16:46.000000  1570 constraint_builder_2d.cc:266] Node (0, 110) with 107 points on submap (0, 2) differs by translation 0.04 rotation 0.032 with score 69.8%.[0m
+[0m[ INFO] [1782670606.330630409, 1782659609.806290019]: I0628 21:16:46.000000  1575 constraint_builder_2d.cc:266] Node (0, 113) with 104 points on submap (0, 2) differs by translation 0.03 rotation 0.022 with score 74.1%.[0m
+[0m[ INFO] [1782670606.332204611, 1782659609.806290019]: I0628 21:16:46.000000  1572 constraint_builder_2d.cc:266] Node (0, 116) with 106 points on submap (0, 2) differs by translation 0.02 rotation 0.018 with score 74.9%.[0m
+[0m[ INFO] [1782670606.333695894, 1782659609.806290019]: I0628 21:16:46.000000  1574 constraint_builder_2d.cc:266] Node (0, 120) with 105 points on submap (0, 2) differs by translation 0.03 rotation 0.014 with score 76.4%.[0m
+[0m[ INFO] [1782670606.335491976, 1782659609.816367275]: I0628 21:16:46.000000  1575 constraint_builder_2d.cc:266] Node (0, 126) with 106 points on submap (0, 2) differs by translation 0.03 rotation 0.001 with score 79.2%.[0m
+[0m[ INFO] [1782670606.336499498, 1782659609.816367275]: I0628 21:16:46.000000  1570 constraint_builder_2d.cc:266] Node (0, 123) with 116 points on submap (0, 2) differs by translation 0.03 rotation 0.009 with score 75.8%.[0m
+[0m[ INFO] [1782670606.338079117, 1782659609.816367275]: I0628 21:16:46.000000  1574 constraint_builder_2d.cc:266] Node (0, 133) with 104 points on submap (0, 2) differs by translation 0.02 rotation 0.029 with score 77.9%.[0m
+[0m[ INFO] [1782670606.338279798, 1782659609.816367275]: I0628 21:16:46.000000  1572 constraint_builder_2d.cc:266] Node (0, 130) with 105 points on submap (0, 2) differs by translation 0.02 rotation 0.028 with score 76.3%.[0m
+[0m[ INFO] [1782670606.340815323, 1782659609.816367275]: I0628 21:16:46.000000  1575 constraint_builder_2d.cc:266] Node (0, 136) with 105 points on submap (0, 2) differs by translation 0.02 rotation 0.020 with score 75.7%.[0m
+[0m[ INFO] [1782670606.342575154, 1782659609.816367275]: I0628 21:16:46.000000  1570 constraint_builder_2d.cc:266] Node (0, 140) with 100 points on submap (0, 2) differs by translation 0.02 rotation 0.009 with score 75.7%.[0m
+[0m[ INFO] [1782670606.342760575, 1782659609.816367275]: I0628 21:16:46.000000  1574 constraint_builder_2d.cc:266] Node (0, 143) with 100 points on submap (0, 2) differs by translation 0.02 rotation 0.008 with score 75.7%.[0m
+[0m[ INFO] [1782670606.343625334, 1782659609.816367275]: I0628 21:16:46.000000  1572 constraint_builder_2d.cc:266] Node (0, 146) with 101 points on submap (0, 2) differs by translation 0.02 rotation 0.005 with score 76.1%.[0m
+[0m[ INFO] [1782670606.346637744, 1782659609.826446874]: I0628 21:16:46.000000  1575 constraint_builder_2d.cc:266] Node (0, 10) with 102 points on submap (0, 2) differs by translation 0.04 rotation 0.025 with score 75.7%.[0m
+[0m[ INFO] [1782670606.347524118, 1782659609.826446874]: I0628 21:16:46.000000  1574 constraint_builder_2d.cc:266] Node (0, 16) with 104 points on submap (0, 2) differs by translation 0.03 rotation 0.021 with score 80.8%.[0m
+[0m[ INFO] [1782670606.348964931, 1782659609.826446874]: I0628 21:16:46.000000  1570 constraint_builder_2d.cc:266] Node (0, 13) with 104 points on submap (0, 2) differs by translation 0.04 rotation 0.025 with score 77.0%.[0m
+[0m[ INFO] [1782670606.349641717, 1782659609.826446874]: I0628 21:16:46.000000  1572 constraint_builder_2d.cc:266] Node (0, 20) with 103 points on submap (0, 2) differs by translation 0.03 rotation 0.015 with score 77.7%.[0m
+[0m[ INFO] [1782670606.350123238, 1782659609.826446874]: I0628 21:16:46.000000  1575 constraint_builder_2d.cc:266] Node (0, 23) with 102 points on submap (0, 2) differs by translation 0.03 rotation 0.014 with score 78.4%.[0m
+[0m[ INFO] [1782670606.352088595, 1782659609.826446874]: I0628 21:16:46.000000  1574 constraint_builder_2d.cc:266] Node (0, 26) with 101 points on submap (0, 2) differs by translation 0.02 rotation 0.025 with score 77.1%.[0m
+[0m[ INFO] [1782670606.354251611, 1782659609.826446874]: I0628 21:16:46.000000  1570 constraint_builder_2d.cc:266] Node (0, 30) with 100 points on submap (0, 2) differs by translation 0.02 rotation 0.007 with score 78.7%.[0m
+[0m[ INFO] [1782670606.354440314, 1782659609.826446874]: I0628 21:16:46.000000  1575 constraint_builder_2d.cc:266] Node (0, 36) with 102 points on submap (0, 2) differs by translation 0.02 rotation 0.001 with score 79.1%.[0m
+[0m[ INFO] [1782670606.356002900, 1782659609.836521525]: I0628 21:16:46.000000  1572 constraint_builder_2d.cc:266] Node (0, 33) with 106 points on submap (0, 2) differs by translation 0.02 rotation 0.006 with score 78.3%.[0m
+[0m[ INFO] [1782670606.356828596, 1782659609.836521525]: I0628 21:16:46.000000  1574 constraint_builder_2d.cc:266] Node (0, 150) with 105 points on submap (0, 2) differs by translation 0.02 rotation 0.004 with score 76.3%.[0m
+[0m[ INFO] [1782670606.359888143, 1782659609.836521525]: I0628 21:16:46.000000  1575 constraint_builder_2d.cc:266] Node (0, 156) with 101 points on submap (0, 2) differs by translation 0.02 rotation 0.019 with score 77.8%.[0m
+[0m[ INFO] [1782670606.360341747, 1782659609.836521525]: I0628 21:16:46.000000  1570 constraint_builder_2d.cc:266] Node (0, 153) with 100 points on submap (0, 2) differs by translation 0.02 rotation 0.009 with score 78.1%.[0m
+[0m[ INFO] [1782670606.360426801, 1782659609.836521525]: I0628 21:16:46.000000  1572 constraint_builder_2d.cc:266] Node (0, 160) with 107 points on submap (0, 2) differs by translation 0.02 rotation 0.022 with score 76.3%.[0m
+[0m[ INFO] [1782670606.362000065, 1782659609.836521525]: I0628 21:16:46.000000  1574 constraint_builder_2d.cc:266] Node (0, 163) with 102 points on submap (0, 2) differs by translation 0.02 rotation 0.021 with score 77.6%.[0m
+[0m[ INFO] [1782670606.365823431, 1782659609.846596488]: I0628 21:16:46.000000  1570 constraint_builder_2d.cc:266] Node (0, 170) with 102 points on submap (0, 2) differs by translation 0.02 rotation 0.024 with score 78.1%.[0m
+[0m[ INFO] [1782670606.366125313, 1782659609.846596488]: I0628 21:16:46.000000  1575 constraint_builder_2d.cc:266] Node (0, 166) with 102 points on submap (0, 2) differs by translation 0.02 rotation 0.014 with score 77.4%.[0m
+[0m[ INFO] [1782670606.366720378, 1782659609.846596488]: I0628 21:16:46.000000  1572 constraint_builder_2d.cc:266] Node (0, 173) with 104 points on submap (0, 2) differs by translation 0.02 rotation 0.029 with score 79.5%.[0m
+[0m[ INFO] [1782670606.370454367, 1782659609.846596488]: I0628 21:16:46.000000  1570 constraint_builder_2d.cc:266] Node (0, 3) with 108 points on submap (0, 2) differs by translation 0.04 rotation 0.032 with score 80.9%.[0m
+[0m[ INFO] [1782670606.371011567, 1782659609.846596488]: I0628 21:16:46.000000  1575 constraint_builder_2d.cc:266] Node (0, 6) with 103 points on submap (0, 2) differs by translation 0.05 rotation 0.035 with score 80.0%.[0m
+[0m[ INFO] [1782670606.371163550, 1782659609.846596488]: I0628 21:16:46.000000  1574 constraint_builder_2d.cc:266] Node (0, 176) with 105 points on submap (0, 2) differs by translation 0.02 rotation 0.013 with score 79.2%.[0m
+[0m[ INFO] [1782670606.371727104, 1782659609.846596488]: I0628 21:16:46.000000  1572 constraint_builder_2d.cc:266] Node (0, 40) with 100 points on submap (0, 2) differs by translation 0.03 rotation 0.003 with score 75.6%.[0m
+[0m[ INFO] [1782670606.375487396, 1782659609.856669368]: I0628 21:16:46.000000  1570 constraint_builder_2d.cc:266] Node (0, 43) with 102 points on submap (0, 2) differs by translation 0.03 rotation 0.000 with score 78.0%.[0m
+[0m[ INFO] [1782670606.375919541, 1782659609.856669368]: I0628 21:16:46.000000  1574 constraint_builder_2d.cc:266] Node (0, 50) with 100 points on submap (0, 2) differs by translation 0.04 rotation 0.019 with score 73.2%.[0m
+[0m[ INFO] [1782670606.376496689, 1782659609.856669368]: I0628 21:16:46.000000  1575 constraint_builder_2d.cc:266] Node (0, 46) with 108 points on submap (0, 2) differs by translation 0.03 rotation 0.009 with score 72.5%.[0m
+[0m[ INFO] [1782670606.377929429, 1782659609.856669368]: I0628 21:16:46.000000  1572 constraint_builder_2d.cc:266] Node (0, 53) with 111 points on submap (0, 2) differs by translation 0.03 rotation 0.016 with score 76.0%.[0m
+[0m[ INFO] [1782670606.381184398, 1782659609.856669368]: I0628 21:16:46.000000  1570 constraint_builder_2d.cc:266] Node (0, 56) with 106 points on submap (0, 2) differs by translation 0.04 rotation 0.024 with score 75.6%.[0m
+[0m[ INFO] [1782670606.381310077, 1782659609.856669368]: I0628 21:16:46.000000  1574 constraint_builder_2d.cc:266] Node (0, 60) with 107 points on submap (0, 2) differs by translation 0.04 rotation 0.020 with score 74.5%.[0m
+[0m[ INFO] [1782670606.381988634, 1782659609.856669368]: I0628 21:16:46.000000  1575 constraint_builder_2d.cc:266] Node (0, 63) with 106 points on submap (0, 2) differs by translation 0.04 rotation 0.023 with score 72.6%.[0m
+[0m[ INFO] [1782670606.382436873, 1782659609.856669368]: I0628 21:16:46.000000  1572 constraint_builder_2d.cc:266] Node (0, 66) with 105 points on submap (0, 2) differs by translation 0.04 rotation 0.029 with score 73.7%.[0m
+[0m[ INFO] [1782670606.386284980, 1782659609.866749228]: I0628 21:16:46.000000  1574 constraint_builder_2d.cc:266] Node (0, 73) with 100 points on submap (0, 2) differs by translation 0.04 rotation 0.035 with score 74.1%.[0m
+[0m[ INFO] [1782670606.386627331, 1782659609.866749228]: I0628 21:16:46.000000  1570 constraint_builder_2d.cc:266] Node (0, 70) with 105 points on submap (0, 2) differs by translation 0.03 rotation 0.028 with score 75.3%.[0m
+[0m[ INFO] [1782670606.386839367, 1782659609.866749228]: I0628 21:16:46.000000  1575 constraint_builder_2d.cc:266] Node (0, 76) with 104 points on submap (0, 2) differs by translation 0.03 rotation 0.039 with score 74.8%.[0m
+[0m[ INFO] [1782670606.387720012, 1782659609.866749228]: I0628 21:16:46.000000  1572 constraint_builder_2d.cc:266] Node (0, 0) with 107 points on submap (0, 2) differs by translation 0.04 rotation 0.032 with score 78.6%.[0m
+[0m[ INFO] [1782670606.426562021, 1782659609.907077624]: I0628 21:16:46.000000  1570 constraint_builder_2d.cc:266] Node (0, 360) with 103 points on submap (0, 0) differs by translation 0.01 rotation 0.020 with score 74.0%.[0m
+[0m[ INFO] [1782670606.591428394, 1782659610.068382251]: I0628 21:16:46.000000  1575 constraint_builder_2d.cc:266] Node (0, 361) with 108 points on submap (0, 0) differs by translation 0.02 rotation 0.015 with score 76.2%.[0m
+[0m[ INFO] [1782670606.700859941, 1782659610.179324822]: I0628 21:16:46.000000  1570 constraint_builder_2d.cc:266] Node (0, 362) with 111 points on submap (0, 0) differs by translation 0.01 rotation 0.016 with score 77.3%.[0m
+[0m[ INFO] [1782670606.811832460, 1782659610.290369478]: I0628 21:16:46.000000  1570 constraint_builder_2d.cc:266] Node (0, 363) with 110 points on submap (0, 1) differs by translation 0.03 rotation 0.046 with score 68.5%.[0m
+[0m[ INFO] [1782670606.812051996, 1782659610.290369478]: I0628 21:16:46.000000  1572 constraint_builder_2d.cc:281] 110 computations resulted in 110 additional constraints.[0m
+[0m[ INFO] [1782670606.812213458, 1782659610.290369478]: I0628 21:16:46.000000  1572 constraint_builder_2d.cc:283] Score histogram:
+Count: 166  Min: 0.685412  Max: 0.868720  Mean: 0.774842
+[0.685412, 0.703743)	                    	Count: 4 (2.409639%)	Total: 4 (2.409639%)
+[0.703743, 0.722073)	                   #	Count: 5 (3.012048%)	Total: 9 (5.421687%)
+[0.722073, 0.740404)	                  ##	Count: 13 (7.831326%)	Total: 22 (13.253012%)
+[0.740404, 0.758735)	                ####	Count: 30 (18.072289%)	Total: 52 (31.325302%)
+[0.758735, 0.777066)	                ####	Count: 31 (18.674698%)	Total: 83 (50.000000%)
+[0.777066, 0.795397)	               #####	Count: 39 (23.493977%)	Total: 122 (73.493973%)
+[0.795397, 0.813727)	                 ###	Count: 24 (14.457831%)	Total: 146 (87.951805%)
+[0.813727, 0.832058)	                  ##	Count: 14 (8.433735%)	Total: 160 (96.385544%)
+[0.832058, 0.850389)	                    	Count: 2 (1.204819%)	Total: 162 (97.590363%)
+[0.850389, 0.868720]	                    	Count: 4 (2.409639%)	Total: 166 (100.000000%)[0m
+[0m[ INFO] [1782670606.924466057, 1782659610.401672837]: I0628 21:16:46.000000  1572 constraint_builder_2d.cc:266] Node (0, 364) with 103 points on submap (0, 1) differs by translation 0.01 rotation 0.014 with score 76.8%.[0m
+[0m[ INFO] [1782670607.089182948, 1782659610.563092675]: I0628 21:16:47.000000  1574 constraint_builder_2d.cc:266] Node (0, 365) with 102 points on submap (0, 1) differs by translation 0.01 rotation 0.012 with score 75.5%.[0m
+[0m[ INFO] [1782670607.198505586, 1782659610.673855554]: I0628 21:16:47.000000  1575 constraint_builder_2d.cc:266] Node (0, 366) with 102 points on submap (0, 2) differs by translation 0.01 rotation 0.015 with score 85.0%.[0m
+[0m[ INFO] [1782670607.364975640, 1782659610.845271239]: I0628 21:16:47.000000  1575 constraint_builder_2d.cc:266] Node (0, 367) with 107 points on submap (0, 2) differs by translation 0.01 rotation 0.011 with score 84.4%.[0m
+[0m[ INFO] [1782670607.474681204, 1782659610.956129432]: I0628 21:16:47.000000  1574 constraint_builder_2d.cc:266] Node (0, 368) with 102 points on submap (0, 2) differs by translation 0.01 rotation 0.009 with score 83.9%.[0m
+[0m[ INFO] [1782670607.750784998, 1782659611.228642573]: I0628 21:16:47.000000  1574 constraint_builder_2d.cc:266] Node (0, 370) with 107 points on submap (0, 0) differs by translation 0.02 rotation 0.001 with score 74.5%.[0m
+[0m[ INFO] [1782670607.861163076, 1782659611.339522225]: I0628 21:16:47.000000  1574 constraint_builder_2d.cc:266] Node (0, 371) with 100 points on submap (0, 0) differs by translation 0.02 rotation 0.004 with score 72.4%.[0m
+[0m[ INFO] [1782670607.970826659, 1782659611.450350105]: I0628 21:16:47.000000  1575 constraint_builder_2d.cc:266] Node (0, 372) with 104 points on submap (0, 0) differs by translation 0.02 rotation 0.004 with score 74.6%.[0m
+[0m[ INFO] [1782670608.136546072, 1782659611.611681452]: I0628 21:16:48.000000  1572 constraint_builder_2d.cc:266] Node (0, 373) with 105 points on submap (0, 1) differs by translation 0.01 rotation 0.000 with score 70.4%.[0m
+[0m[ INFO] [1782670608.247835994, 1782659611.722689597]: I0628 21:16:48.000000  1574 constraint_builder_2d.cc:266] Node (0, 374) with 104 points on submap (0, 1) differs by translation 0.01 rotation 0.001 with score 69.8%.[0m
+[0m[ INFO] [1782670608.356929669, 1782659611.833518570]: I0628 21:16:48.000000  1574 constraint_builder_2d.cc:266] Node (0, 375) with 105 points on submap (0, 1) differs by translation 0.01 rotation 0.000 with score 71.4%.[0m
+[0m[ INFO] [1782670608.522308605, 1782659611.994980284]: I0628 21:16:48.000000  1572 constraint_builder_2d.cc:266] Node (0, 376) with 102 points on submap (0, 2) differs by translation 0.02 rotation 0.002 with score 80.0%.[0m
+[0m[ INFO] [1782670608.631754632, 1782659612.105944834]: I0628 21:16:48.000000  1570 constraint_builder_2d.cc:266] Node (0, 377) with 105 points on submap (0, 2) differs by translation 0.02 rotation 0.001 with score 80.7%.[0m
+[0m[ INFO] [1782670608.742291933, 1782659612.216790319]: I0628 21:16:48.000000  1570 constraint_builder_2d.cc:266] Node (0, 378) with 101 points on submap (0, 2) differs by translation 0.02 rotation 0.000 with score 80.2%.[0m
+[0m[ INFO] [1782670609.019853936, 1782659612.498960289]: I0628 21:16:49.000000  1572 constraint_builder_2d.cc:266] Node (0, 380) with 101 points on submap (0, 0) differs by translation 0.02 rotation 0.005 with score 71.6%.[0m
+[0m[ INFO] [1782670609.130809840, 1782659612.610514592]: I0628 21:16:49.000000  1574 constraint_builder_2d.cc:266] Node (0, 381) with 108 points on submap (0, 0) differs by translation 0.02 rotation 0.007 with score 73.9%.[0m
+[0m[ INFO] [1782670609.294708847, 1782659612.772017609]: I0628 21:16:49.000000  1574 constraint_builder_2d.cc:266] Node (0, 382) with 101 points on submap (0, 0) differs by translation 0.02 rotation 0.011 with score 73.1%.[0m
+[0m[ INFO] [1782670609.406466800, 1782659612.882826113]: I0628 21:16:49.000000  1575 constraint_builder_2d.cc:266] Node (0, 383) with 107 points on submap (0, 1) differs by translation 0.01 rotation 0.014 with score 70.5%.[0m
+[0m[ INFO] [1782670609.515546881, 1782659612.993852331]: I0628 21:16:49.000000  1572 constraint_builder_2d.cc:266] Node (0, 384) with 107 points on submap (0, 1) differs by translation 0.02 rotation 0.007 with score 73.3%.[0m
+[0m[ INFO] [1782670609.680891390, 1782659613.155255971]: I0628 21:16:49.000000  1570 constraint_builder_2d.cc:266] Node (0, 385) with 108 points on submap (0, 1) differs by translation 0.01 rotation 0.012 with score 72.8%.[0m
+[0m[ INFO] [1782670609.791153789, 1782659613.266196145]: I0628 21:16:49.000000  1574 constraint_builder_2d.cc:266] Node (0, 386) with 104 points on submap (0, 2) differs by translation 0.02 rotation 0.009 with score 77.6%.[0m
+[0m[ INFO] [1782670609.901364207, 1782659613.377193300]: I0628 21:16:49.000000  1572 constraint_builder_2d.cc:266] Node (0, 387) with 106 points on submap (0, 2) differs by translation 0.02 rotation 0.011 with score 80.2%.[0m
+[0m[ INFO] [1782670610.068264063, 1782659613.548904409]: I0628 21:16:50.000000  1575 constraint_builder_2d.cc:266] Node (0, 388) with 100 points on submap (0, 2) differs by translation 0.02 rotation 0.009 with score 78.1%.[0m
+[0m[ INFO] [1782670610.288296662, 1782659613.760740055]: I0628 21:16:50.000000  1572 constraint_builder_2d.cc:266] Node (0, 390) with 100 points on submap (0, 0) differs by translation 0.02 rotation 0.007 with score 72.0%.[0m
+[0m[ INFO] [1782670610.452374788, 1782659613.931954902]: I0628 21:16:50.000000  1570 constraint_builder_2d.cc:266] Node (0, 391) with 102 points on submap (0, 0) differs by translation 0.01 rotation 0.005 with score 71.7%.[0m
+[0m[ INFO] [1782670610.564226441, 1782659614.042790699]: I0628 21:16:50.000000  1575 constraint_builder_2d.cc:266] Node (0, 392) with 105 points on submap (0, 0) differs by translation 0.01 rotation 0.007 with score 75.7%.[0m
+[0m[ INFO] [1782670610.674669105, 1782659614.153621027]: I0628 21:16:50.000000  1570 constraint_builder_2d.cc:266] Node (0, 393) with 109 points on submap (0, 1) differs by translation 0.01 rotation 0.012 with score 72.3%.[0m
+[0m[ INFO] [1782670610.841343643, 1782659614.315063783]: I0628 21:16:50.000000  1572 constraint_builder_2d.cc:266] Node (0, 394) with 101 points on submap (0, 1) differs by translation 0.02 rotation 0.003 with score 68.4%.[0m
+[0m[ INFO] [1782670610.951349317, 1782659614.425915570]: I0628 21:16:50.000000  1572 constraint_builder_2d.cc:266] Node (0, 395) with 108 points on submap (0, 1) differs by translation 0.01 rotation 0.009 with score 69.3%.[0m
+[0m[ INFO] [1782670611.062211208, 1782659614.536823660]: I0628 21:16:51.000000  1570 constraint_builder_2d.cc:266] Node (0, 396) with 108 points on submap (0, 2) differs by translation 0.02 rotation 0.010 with score 75.5%.[0m
+[0m[ INFO] [1782670611.226554445, 1782659614.698359698]: I0628 21:16:51.000000  1574 constraint_builder_2d.cc:266] Node (0, 397) with 101 points on submap (0, 2) differs by translation 0.02 rotation 0.006 with score 72.4%.[0m
+[0m[ INFO] [1782670611.336990025, 1782659614.809202579]: I0628 21:16:51.000000  1575 constraint_builder_2d.cc:266] Node (0, 398) with 102 points on submap (0, 2) differs by translation 0.02 rotation 0.012 with score 71.7%.[0m
+[0m[ INFO] [1782670611.613053401, 1782659615.091655316]: I0628 21:16:51.000000  1572 constraint_builder_2d.cc:266] Node (0, 400) with 101 points on submap (0, 0) differs by translation 0.02 rotation 0.008 with score 66.2%.[0m
+[0m[ INFO] [1782670611.724622443, 1782659615.202568250]: I0628 21:16:51.000000  1570 constraint_builder_2d.cc:266] Node (0, 401) with 112 points on submap (0, 0) differs by translation 0.02 rotation 0.012 with score 72.9%.[0m
+[0m[ INFO] [1782670611.833857319, 1782659615.313664261]: I0628 21:16:51.000000  1572 constraint_builder_2d.cc:266] Node (0, 402) with 114 points on submap (0, 0) differs by translation 0.02 rotation 0.023 with score 76.2%.[0m
+[0m[ INFO] [1782670612.000089504, 1782659615.474924825]: I0628 21:16:51.000000  1572 constraint_builder_2d.cc:266] Node (0, 403) with 102 points on submap (0, 1) differs by translation 0.01 rotation 0.027 with score 70.3%.[0m
+[0m[ INFO] [1782670612.111639014, 1782659615.585868957]: I0628 21:16:52.000000  1574 constraint_builder_2d.cc:266] Node (0, 404) with 104 points on submap (0, 1) differs by translation 0.02 rotation 0.005 with score 71.2%.[0m
+[0m[ INFO] [1782670612.221494738, 1782659615.696904603]: I0628 21:16:52.000000  1575 constraint_builder_2d.cc:266] Node (0, 405) with 108 points on submap (0, 1) differs by translation 0.01 rotation 0.032 with score 69.3%.[0m
+[0m[ INFO] [1782670612.385465101, 1782659615.858178552]: I0628 21:16:52.000000  1570 constraint_builder_2d.cc:266] Node (0, 406) with 101 points on submap (0, 2) differs by translation 0.02 rotation 0.029 with score 75.5%.[0m
+[0m[ INFO] [1782670612.498842205, 1782659615.979384007]: I0628 21:16:52.000000  1574 constraint_builder_2d.cc:266] Node (0, 407) with 104 points on submap (0, 2) differs by translation 0.02 rotation 0.016 with score 75.3%.[0m
+[0m[ INFO] [1782670612.608094789, 1782659616.080133486]: I0628 21:16:52.000000  1575 constraint_builder_2d.cc:266] Node (0, 408) with 104 points on submap (0, 2) differs by translation 0.02 rotation 0.020 with score 80.0%.[0m
+[0m[ INFO] [1782670612.993984096, 1782659616.473137117]: I0628 21:16:52.000000  1572 constraint_builder_2d.cc:266] Node (0, 410) with 109 points on submap (0, 0) differs by translation 0.01 rotation 0.005 with score 82.0%.[0m
+[0m[ INFO] [1782670613.934535159, 1782659617.412029602]: I0628 21:16:53.000000  1570 constraint_builder_2d.cc:266] Node (0, 411) with 118 points on submap (0, 0) differs by translation 0.01 rotation 0.001 with score 79.5%.[0m
+[0m[ INFO] [1782670614.319282670, 1782659617.795539116]: I0628 21:16:54.000000  1574 constraint_builder_2d.cc:266] Node (0, 412) with 101 points on submap (0, 0) differs by translation 0.01 rotation 0.009 with score 84.8%.[0m
+[0m[ INFO] [1782670614.704064556, 1782659618.178786385]: I0628 21:16:54.000000  1574 constraint_builder_2d.cc:266] Node (0, 413) with 100 points on submap (0, 1) differs by translation 0.02 rotation 0.024 with score 74.8%.[0m
+[0m[ INFO] [1782670615.944771874, 1782659619.419856315]: I0628 21:16:55.000000  1512 collated_trajectory_builder.cc:72] odom rate: 18.16 Hz 5.51e-02 s +/- 8.36e-04 s (pulsed at 99.60% real time)[0m
+[0m[ INFO] [1782670615.944891877, 1782659619.419856315]: I0628 21:16:55.000000  1512 collated_trajectory_builder.cc:72] scan rate: 7.75 Hz 1.29e-01 s +/- 6.16e-03 s (pulsed at 100.32% real time)[0m
+[KOptimizing: Done.     
+[KOptimizing: Done.     
+... logging to /home/robot/.ros/log/49cb8e92-731d-11f1-8ada-08beac0c3c53/roslaunch-robot-desktop-1486.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/robot/licenta_cosmin/catkin_ws/src/Licenta_Coldea_Cosmin/ros_ws/turtlebot3_slam/launch/turtlebot3_cartographer_no_imu.launch
+[1mstarted roslaunch server http://robot-desktop:43019/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.13
+ * /use_sim_time: True
+
+NODES
+  /
+    cartographer_node (cartographer_ros/cartographer_node)
+    cartographer_occupancy_grid_node (cartographer_ros/cartographer_occupancy_grid_node)
+
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/robot/licenta_cosmin/catkin_ws/src/Licenta_Coldea_Cosmin/ros_ws/turtlebot3_slam/launch/turtlebot3_cartographer_no_imu.launch http://localhost:11311
+[1mprocess[cartographer_node-1]: started with pid [1512][0m
+[1mprocess[cartographer_occupancy_grid_node-2]: started with pid [1513][0m
+[cartographer_occupancy_grid_node-2] killing on exit
+[cartographer_node-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

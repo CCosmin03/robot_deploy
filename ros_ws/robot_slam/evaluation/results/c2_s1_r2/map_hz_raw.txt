@@ -1,0 +1,236 @@
+WARNING: may be using simulated time
+subscribed to [/map]
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.121
+	min: 8.281s max: 8.281s std dev: 0.00000s window: 2
+no new messages
+no new messages
+average rate: 0.174
+	min: 3.203s max: 8.281s std dev: 2.53917s window: 3
+no new messages
+no new messages
+no new messages
+average rate: 0.198
+	min: 3.203s max: 8.281s std dev: 2.29465s window: 4
+no new messages
+no new messages
+no new messages
+average rate: 0.208
+	min: 3.203s max: 8.281s std dev: 2.03315s window: 5
+no new messages
+no new messages
+no new messages
+average rate: 0.216
+	min: 3.203s max: 8.281s std dev: 1.84765s window: 6
+no new messages
+no new messages
+no new messages
+average rate: 0.220
+	min: 3.203s max: 8.281s std dev: 1.69888s window: 7
+no new messages
+no new messages
+no new messages
+average rate: 0.223
+	min: 3.203s max: 8.281s std dev: 1.58053s window: 8
+no new messages
+no new messages
+no new messages
+average rate: 0.225
+	min: 3.203s max: 8.281s std dev: 1.48192s window: 9
+no new messages
+no new messages
+no new messages
+average rate: 0.226
+	min: 3.203s max: 8.281s std dev: 1.39875s window: 10
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.227
+	min: 3.203s max: 8.281s std dev: 1.32790s window: 11
+no new messages
+no new messages
+no new messages
+average rate: 0.228
+	min: 3.203s max: 8.281s std dev: 1.26685s window: 12
+no new messages
+no new messages
+no new messages
+average rate: 0.229
+	min: 3.203s max: 8.281s std dev: 1.21429s window: 13
+no new messages
+no new messages
+no new messages
+average rate: 0.229
+	min: 3.203s max: 8.281s std dev: 1.16688s window: 14
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.229
+	min: 3.203s max: 8.281s std dev: 1.12447s window: 15
+no new messages
+no new messages
+no new messages
+average rate: 0.229
+	min: 3.203s max: 8.281s std dev: 1.08639s window: 16
+no new messages
+no new messages
+no new messages
+average rate: 0.230
+	min: 3.203s max: 8.281s std dev: 1.05201s window: 17
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.230
+	min: 3.203s max: 8.281s std dev: 1.02098s window: 18
+no new messages
+no new messages
+no new messages
+average rate: 0.230
+	min: 3.203s max: 8.281s std dev: 0.99242s window: 19
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.229
+	min: 3.203s max: 8.281s std dev: 0.96639s window: 20
+no new messages
+no new messages
+no new messages
+average rate: 0.229
+	min: 3.203s max: 8.281s std dev: 0.94202s window: 21
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.227
+	min: 3.203s max: 8.281s std dev: 0.94066s window: 22
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.223
+	min: 3.203s max: 8.281s std dev: 0.97167s window: 23
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.221
+	min: 3.203s max: 8.281s std dev: 0.98060s window: 24
+no new messages
+no new messages
+no new messages
+average rate: 0.221
+	min: 3.203s max: 8.281s std dev: 0.96000s window: 25
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.221
+	min: 3.203s max: 8.281s std dev: 0.94155s window: 26
+no new messages
+no new messages
+no new messages
+average rate: 0.221
+	min: 3.203s max: 8.281s std dev: 0.92363s window: 27
+no new messages
+no new messages
+no new messages
+average rate: 0.222
+	min: 3.203s max: 8.281s std dev: 0.90662s window: 28
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.222
+	min: 3.203s max: 8.281s std dev: 0.89031s window: 29
+no new messages
+no new messages
+no new messages
+average rate: 0.222
+	min: 3.203s max: 8.281s std dev: 0.87510s window: 30
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.222
+	min: 3.203s max: 8.281s std dev: 0.86057s window: 31
+no new messages
+no new messages
+no new messages
+average rate: 0.222
+	min: 3.203s max: 8.281s std dev: 0.84695s window: Exception in thread /map:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_pubsub.py", line 185, in robust_connect_subscriber
+    conn.receive_loop(receive_cb)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 846, in receive_loop
+    self.close()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 858, in close
+    self.socket.close()
+AttributeError: 'NoneType' object has no attribute 'close'
+
+32
+no new messages
+no new messages
+no new messages
+average rate: 0.222
+	min: 3.203s max: 8.281s std dev: 0.83430s window: 33
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.223
+	min: 3.203s max: 8.281s std dev: 0.82193s window: 34
+no new messages
+no new messages
+no new messages
+average rate: 0.223
+	min: 3.203s max: 8.281s std dev: 0.80989s window: 35
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.223
+	min: 3.203s max: 8.281s std dev: 0.79856s window: 36
+no new messages
+no new messages
+no new messages
+average rate: 0.223
+	min: 3.203s max: 8.281s std dev: 0.78743s window: 37
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.223
+	min: 3.203s max: 8.281s std dev: 0.77672s window: 38
+no new messages
+no new messages
+no new messages
+average rate: 0.224
+	min: 3.203s max: 8.281s std dev: 0.77747s window: 39
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages

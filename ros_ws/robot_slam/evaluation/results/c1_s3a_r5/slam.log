@@ -1,0 +1,271 @@
+[0m[ INFO] [1782670936.083694421, 1782660053.849354097]: Laser is mounted upwards.[0m
+ -maxUrange 3 -maxUrange 11.99 -sigma     0.05 -kernelSize 1 -lstep 0.05 -lobsGain 3 -astep 0.05
+ -srr 0.1 -srt 0.2 -str 0.1 -stt 0.2
+ -linearUpdate 0.05 -angularUpdate 0.05 -resampleThreshold 0.5
+ -xmin -10 -xmax 10 -ymin -10 -ymax 10 -delta 0.05 -particles 100
+[0m[ INFO] [1782670936.094242468, 1782660053.859433331]: Initialization complete[0m
+update frame 0
+update ld=0 ad=0
+Laser Pose= 0 0 -3.13287
+m_count 0
+Registering First Scan
+update frame 2
+update ld=0 ad=0
+Laser Pose= 0 0 -3.13287
+m_count 1
+Average Scan Matching Score=704.007
+neff= 100
+Registering Scans:Done
+update frame 3
+update ld=0 ad=0
+Laser Pose= 0 0 -3.13287
+m_count 2
+Average Scan Matching Score=700.368
+neff= 100
+Registering Scans:Done
+update frame 4
+update ld=0 ad=0
+Laser Pose= 0 0 -3.13287
+m_count 3
+Average Scan Matching Score=697.385
+neff= 100
+Registering Scans:Done
+update frame 5
+update ld=0.0364181 ad=0.0176314
+Laser Pose= 0.0364162 -0.000378895 3.13269
+m_count 4
+Average Scan Matching Score=708.181
+neff= 100
+Registering Scans:Done
+update frame 6
+update ld=0.109821 ad=0.0116233
+Laser Pose= 0.146201 -0.00318343 3.12106
+m_count 5
+Average Scan Matching Score=702.768
+neff= 99.9365
+Registering Scans:Done
+update frame 7
+update ld=0.100031 ad=0.00642709
+Laser Pose= 0.246178 -0.00646226 3.11463
+m_count 6
+Average Scan Matching Score=693.976
+neff= 99.955
+Registering Scans:Done
+update frame 8
+update ld=0.122839 ad=0.0038803
+Laser Pose= 0.368934 -0.010989 3.11075
+m_count 7
+Average Scan Matching Score=681.83
+neff= 99.9616
+Registering Scans:Done
+update frame 9
+update ld=0.144586 ad=0.00272062
+Laser Pose= 0.513395 -0.0170044 3.10803
+m_count 8
+Average Scan Matching Score=692.84
+neff= 99.8495
+Registering Scans:Done
+update frame 10
+update ld=0.153848 ad=0.00613658
+Laser Pose= 0.667083 -0.0240221 3.1019
+m_count 9
+Average Scan Matching Score=678.693
+neff= 99.8285
+Registering Scans:Done
+update frame 11
+update ld=0.15806 ad=0.00245923
+Laser Pose= 0.824954 -0.0317412 3.09944
+m_count 10
+Average Scan Matching Score=662.27
+neff= 99.6851
+Registering Scans:Done
+update frame 12
+update ld=0.151931 ad=0.261104
+Laser Pose= 0.975294 -0.0536698 2.83833
+m_count 11
+Average Scan Matching Score=660.636
+neff= 99.15
+Registering Scans:Done
+update frame 13
+update ld=0.157149 ad=0.385796
+Laser Pose= 1.11296 -0.129465 2.45254
+m_count 12
+Average Scan Matching Score=643.122
+neff= 99.1475
+Registering Scans:Done
+update frame 14
+update ld=0.178748 ad=0.486485
+Laser Pose= 1.21305 -0.277557 1.96605
+m_count 13
+Average Scan Matching Score=664.833
+neff= 92.2878
+Registering Scans:Done
+update frame 15
+update ld=0.2308 ad=0.318851
+Laser Pose= 1.2627 -0.502954 1.6472
+m_count 14
+Average Scan Matching Score=690.48
+neff= 92.2765
+Registering Scans:Done
+update frame 16
+update ld=0.241101 ad=0.242885
+Laser Pose= 1.23573 -0.742542 1.40432
+m_count 15
+Average Scan Matching Score=662.168
+neff= 91.2082
+Registering Scans:Done
+update frame 17
+update ld=0.218885 ad=0.480881
+Laser Pose= 1.16893 -0.950984 0.923437
+m_count 16
+Average Scan Matching Score=670.427
+neff= 89.6275
+Registering Scans:Done
+update frame 18
+update ld=0.228996 ad=0.654841
+Laser Pose= 0.968401 -1.06156 0.268596
+m_count 17
+Average Scan Matching Score=689.812
+neff= 89.473
+Registering Scans:Done
+update frame 19
+update ld=0.25232 ad=0.0274054
+Laser Pose= 0.722676 -1.11887 0.24119
+m_count 18
+Average Scan Matching Score=706.096
+neff= 89.4792
+Registering Scans:Done
+update frame 20
+update ld=0.233825 ad=0.0689584
+Laser Pose= 0.493917 -1.16728 0.172232
+m_count 19
+Average Scan Matching Score=693.06
+neff= 89.5139
+Registering Scans:Done
+update frame 21
+update ld=0.237272 ad=0.391946
+Laser Pose= 0.256729 -1.17361 -0.219714
+m_count 20
+Average Scan Matching Score=696.032
+neff= 89.5459
+Registering Scans:Done
+update frame 22
+update ld=0.31181 ad=0.397301
+Laser Pose= -0.0195063 -1.02898 -0.617015
+m_count 21
+Average Scan Matching Score=701.773
+neff= 89.5646
+Registering Scans:Done
+update frame 23
+update ld=0.320311 ad=0.220092
+Laser Pose= -0.258981 -0.816254 -0.837107
+m_count 22
+Average Scan Matching Score=697.479
+neff= 89.1336
+Registering Scans:Done
+update frame 24
+update ld=0.266635 ad=0.187159
+Laser Pose= -0.406591 -0.594205 -1.02427
+m_count 23
+Average Scan Matching Score=681.464
+neff= 88.3917
+Registering Scans:Done
+update frame 25
+update ld=0.265296 ad=1.0163
+Laser Pose= -0.443421 -0.331478 -2.04056
+m_count 24
+Scan Matching Failed, using odometry. Likelihood=0
+lp:-0.406591 -0.594205 -1.02427
+op:-0.443421 -0.331478 -2.04056
+Average Scan Matching Score=687.194
+neff= 84.699
+Registering Scans:Done
+update frame 26
+update ld=0.310527 ad=0.576424
+Laser Pose= -0.199135 -0.139771 -2.61699
+m_count 25
+Average Scan Matching Score=697.058
+neff= 82.8193
+Registering Scans:Done
+update frame 27
+update ld=0 ad=0
+Laser Pose= -0.199135 -0.139771 -2.61699
+m_count 26
+Average Scan Matching Score=702.95
+neff= 82.8168
+Registering Scans:Done
+update frame 29
+update ld=2.77556e-17 ad=0
+Laser Pose= -0.199135 -0.139771 -2.61699
+m_count 27
+Average Scan Matching Score=701.985
+neff= 82.8169
+Registering Scans:Done
+update frame 31
+update ld=2.77556e-17 ad=0
+Laser Pose= -0.199135 -0.139771 -2.61699
+m_count 28
+Average Scan Matching Score=708.029
+neff= 82.8158
+Registering Scans:Done
+virtual GMapping::GridSlamProcessor::~GridSlamProcessor(): Start
+virtual GMapping::GridSlamProcessor::~GridSlamProcessor(): Deleting tree
+... logging to /home/robot/.ros/log/3e1a5c76-731e-11f1-99ef-08beac0c3c53/roslaunch-robot-desktop-5787.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/robot/licenta_cosmin/catkin_ws/src/Licenta_Coldea_Cosmin/ros_ws/turtlebot3_slam/launch/turtlebot3_gmapping.launch
+[1mstarted roslaunch server http://robot-desktop:35077/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.13
+ * /turtlebot3_slam_gmapping/angularUpdate: 0.05
+ * /turtlebot3_slam_gmapping/astep: 0.05
+ * /turtlebot3_slam_gmapping/base_frame: base_footprint
+ * /turtlebot3_slam_gmapping/delta: 0.05
+ * /turtlebot3_slam_gmapping/iterations: 5
+ * /turtlebot3_slam_gmapping/kernelSize: 1
+ * /turtlebot3_slam_gmapping/lasamplerange: 0.005
+ * /turtlebot3_slam_gmapping/lasamplestep: 0.005
+ * /turtlebot3_slam_gmapping/linearUpdate: 0.05
+ * /turtlebot3_slam_gmapping/llsamplerange: 0.01
+ * /turtlebot3_slam_gmapping/llsamplestep: 0.01
+ * /turtlebot3_slam_gmapping/lsigma: 0.03
+ * /turtlebot3_slam_gmapping/lskip: 0
+ * /turtlebot3_slam_gmapping/lstep: 0.05
+ * /turtlebot3_slam_gmapping/map_frame: map
+ * /turtlebot3_slam_gmapping/map_update_interval: 2.0
+ * /turtlebot3_slam_gmapping/maxUrange: 3.0
+ * /turtlebot3_slam_gmapping/minimumScore: 100
+ * /turtlebot3_slam_gmapping/odom_frame: odom
+ * /turtlebot3_slam_gmapping/ogain: 3.0
+ * /turtlebot3_slam_gmapping/particles: 100
+ * /turtlebot3_slam_gmapping/resampleThreshold: 0.5
+ * /turtlebot3_slam_gmapping/sigma: 0.05
+ * /turtlebot3_slam_gmapping/srr: 0.1
+ * /turtlebot3_slam_gmapping/srt: 0.2
+ * /turtlebot3_slam_gmapping/str: 0.1
+ * /turtlebot3_slam_gmapping/stt: 0.2
+ * /turtlebot3_slam_gmapping/temporalUpdate: 0.2
+ * /turtlebot3_slam_gmapping/transform_tolerance: 0.5
+ * /turtlebot3_slam_gmapping/xmax: 10.0
+ * /turtlebot3_slam_gmapping/xmin: -10.0
+ * /turtlebot3_slam_gmapping/ymax: 10.0
+ * /turtlebot3_slam_gmapping/ymin: -10.0
+ * /use_sim_time: True
+
+NODES
+  /
+    turtlebot3_slam_gmapping (gmapping/slam_gmapping)
+
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/robot/licenta_cosmin/catkin_ws/src/Licenta_Coldea_Cosmin/ros_ws/turtlebot3_slam/launch/turtlebot3_gmapping.launch http://localhost:11311
+[1mprocess[turtlebot3_slam_gmapping-1]: started with pid [5810][0m
+[turtlebot3_slam_gmapping-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

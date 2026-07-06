@@ -1,0 +1,14 @@
+<launch>
+  <arg name="set_frame_id" default="base_scan"/>
+  <arg name="serial_port" default="/dev/lidar"/>
+  <arg name="serial_baudrate" default="115200"/>
+
+  <!-- RPLIDAR A1 driver -->
+  <node pkg="rplidar_ros" type="rplidarNode" name="rplidar" output="screen">
+    <param name="serial_port" value="$(arg serial_port)"/>
+    <param name="serial_baudrate" value="$(arg serial_baudrate)"/>
+    <param name="frame_id" value="$(arg set_frame_id)"/>
+    <param name="inverted" value="false"/>
+    <param name="angle_compensate" value="true"/>
+  </node>
+</launch>

@@ -1,0 +1,3 @@
+[monitor] caut procesul SLAM pentru c3...
+[monitor] gasit PID=13886 (hector_mapping)
+[monitor] salvat 221 esantioane -> /home/robot/licenta_cosmin/catkin_ws/src/Licenta_Coldea_Cosmin/ros_ws/turtlebot3_slam/evaluation/results/c3_s3b_r1/resources.yaml

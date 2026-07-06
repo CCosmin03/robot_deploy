@@ -1,0 +1,39 @@
+﻿<launch>
+  <arg name="model"             default="my_robot"/>
+  <arg name="multi_robot_name" default=""/>
+  <arg name="set_lidar_frame_id" default="base_scan"/>
+
+  <!-- Load URDF and start robot_state_publisher -->
+  <include file="$(find robot_bringup)/launch/robot_remote.launch">
+    <arg name="model"             value="$(arg model)"/>
+    <arg name="multi_robot_name" value="$(arg multi_robot_name)"/>
+  </include>
+
+  <!-- Publish zero wheel joint states so robot_state_publisher can broadcast wheel TF -->
+  <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher"/>
+
+  <include file="$(find robot_bringup)/launch/robot_core.launch">
+    <arg name="multi_robot_name" value="$(arg multi_robot_name)"/>
+  </include>
+  <include file="$(find robot_bringup)/launch/robot_lidar.launch">
+    <arg name="set_frame_id" value="$(arg set_lidar_frame_id)"/>
+  </include>
+
+  <node pkg="robot_bringup" type="imu_bno055_node" name="imu_bno055_node" output="screen">
+    <param name="i2c_dev"  value="/dev/i2c-1"/>
+    <param name="i2c_addr" value="0x28"/>
+    <param name="imu_mode" value="imuplus"/>
+    <param name="rate_hz"  value="50"/>
+  </node>
+
+  <node pkg="robot_bringup" type="robot_diagnostics" name="robot_diagnostics" output="screen"
+        launch-prefix="bash -c 'sleep 3; exec $0 $@'"/>
+
+  <node pkg="robot_bringup" type="odometry_node" name="odometry_node" output="screen">
+    <param name="wheel_radius"     value="0.03208"/>
+    <param name="wheel_separation" value="0.2025"/>
+    <param name="ticks_per_rev"    value="11800"/>
+  </node>
+
+  <node pkg="robot_bringup" type="battery_shutdown_node" name="battery_shutdown_node" output="screen"/>
+</launch>

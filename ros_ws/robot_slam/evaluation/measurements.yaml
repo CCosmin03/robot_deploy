@@ -1,0 +1,55 @@
+# Masuratori fizice ale mediului (ground truth)
+# Toate coordonatele sunt relative la pozitia de start a robotului (0, 0)
+# Unitate: metri
+
+ground_truth:
+  - name: "Colt_A"
+    x: 0.00   # completeaza cu masuratorile tale
+    y: 0.00
+  - name: "Colt_B"
+    x: 0.00
+    y: 0.00
+  - name: "Usa_C"
+    x: 0.00
+    y: 0.00
+  - name: "Obstacol_D"
+    x: 0.00
+    y: 0.00
+
+# Coordonate pixel din GIMP pentru fiecare harta
+# Click pe acelasi punct in GIMP -> Tools -> Pointer Information
+# IMPORTANT: px, py sunt coordonate de imagine (0,0 = colt stanga-sus)
+
+map_fara_imu:
+  pgm_file: "~/map_fara_imu.pgm"
+  yaml_file: "~/map_fara_imu.yaml"   # contine resolution si origin
+  points:
+    - name: "Colt_A"
+      px: 0   # completeaza din GIMP
+      py: 0
+    - name: "Colt_B"
+      px: 0
+      py: 0
+    - name: "Usa_C"
+      px: 0
+      py: 0
+    - name: "Obstacol_D"
+      px: 0
+      py: 0
+
+map_cu_imu:
+  pgm_file: "~/map_cu_imu.pgm"
+  yaml_file: "~/map_cu_imu.yaml"
+  points:
+    - name: "Colt_A"
+      px: 0
+      py: 0
+    - name: "Colt_B"
+      px: 0
+      py: 0
+    - name: "Usa_C"
+      px: 0
+      py: 0
+    - name: "Obstacol_D"
+      px: 0
+      py: 0

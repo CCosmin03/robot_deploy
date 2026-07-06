@@ -1,0 +1,3 @@
+[monitor] caut procesul SLAM pentru c2...
+[monitor] gasit PID=9437 (slam_gmapping)
+[monitor] salvat 281 esantioane -> /home/robot/licenta_cosmin/catkin_ws/src/Licenta_Coldea_Cosmin/ros_ws/turtlebot3_slam/evaluation/results/c2_s1_r5/resources.yaml

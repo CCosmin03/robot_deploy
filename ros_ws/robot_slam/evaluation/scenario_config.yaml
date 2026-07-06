@@ -1,0 +1,124 @@
+# Configuratie scenarii de testare — completeaza cu masuratorile tale fizice
+# Folosit de compute_metrics.py pentru eroarea dimensionala si completitudine
+
+s1:
+  name: "Coridor drept"
+  reference_length_m: 2.82    # lungimea coridorului masurata fizic
+  reference_width_m:  0.90    # latimea coridorului masurata fizic
+  room_area_m2: 2.538          # suprafata reala: 2.82m x 0.90m
+  description: "Robot merge 2.82m dus-intors pe coridor drept"
+
+s2:
+  name: "Loop closure sofa"
+  description: "Robot inconjoara o canapea pe traseu dreptunghiular"
+
+  # ── Camera (C1=lungime, C2=latime) ─────────────────────────────────────────
+  room_length_m:  2.81   # COMPLETEAZA: C1 — lungimea camerei (m)
+  room_width_m:   2.74   # COMPLETEAZA: C2 — latimea camerei (m)
+
+  # ── Canapea (S1=lungime, S2=latime) ────────────────────────────────────────
+  sofa_length_m:  1.5   # COMPLETEAZA: S1 — lungimea canapelei (m)
+  sofa_width_m:   1.0   # COMPLETEAZA: S2 — latimea canapelei (m)
+
+  # ── Distante canapea → pereti ───────────────────────────────────────────────
+  # D1=Nord, D2=Sud, D3=Est, D4=Vest (masura cu ruleta de la muchia canapelei)
+  dist_north_m:   0.75   # COMPLETEAZA: D1
+  dist_south_m:   1.0   # COMPLETEAZA: D2
+  dist_east_m:    0.59   # COMPLETEAZA: D3
+  dist_west_m:    0.72   # COMPLETEAZA: D4
+
+  # ── Dulapuri ────────────────────────────────────────────────────────────────
+  # x_m = distanta de la peretele STANG al imaginii (est fizic) la muchia stanga a dulsapului
+  # y_m = distanta de la peretele de SUS (nord) la muchia de sus a dulsapului
+  # Dulapurile sunt lipite de peretele de JOS (sud), in colturile stanga si dreapta
+  # Dulapuri — reprezentate ca colturi interioare (interior gri + contur pe fetele vizibile)
+  wardrobes:
+    - length_m: 0.57
+      width_m:  0.38
+      x_m:      0.0     # colt stanga-jos (sud-vest)
+      y_m:      2.36    # = room_width(2.74) - adancime(0.38)
+    - length_m: 0.48
+      width_m:  0.58
+      x_m:      2.33    # colt dreapta-jos (sud-est)
+      y_m:      2.16    # = room_width(2.74) - adancime(0.58)
+
+  # ── Calorifere ──────────────────────────────────────────────────────────────
+  # Obiect solid lipit de perete (interior complet ocupat, fara gri)
+  # dist_from_north_m = distanta de la peretele N la muchia nordica a caloriferlui
+  radiator:
+    length_m:          1.80   # lungimea de-a lungul peretelui V (directia N-S)
+    width_m:           0.09   # adancimea in camera (directia E), ~2px la 5cm/px
+    wall:              west
+    dist_from_north_m: 0.22
+
+s3a:
+  name: "Laborator static"
+  description: "Aceeasi camera ca S2 — canapea lipita de perete sud + 2 cutii"
+
+  # ── Camera (identica cu S2) ─────────────────────────────────────────────────
+  room_length_m: 2.81
+  room_width_m:  2.74
+
+  # ── Canapea — lipita de peretele sud (intre dulapuri) ──────────────────────
+  # SLAM o vede ca parte din perete; redatam cu contur + interior gri (ca S2)
+  sofa_length_m: 1.50
+  sofa_width_m:  1.00
+  dist_north_m:  1.74   # = room_width(2.74) - sofa_width(1.00) → lipita de perete sud
+  dist_east_m:   0.60   # 60 cm de la peretele stang al imaginii (est fizic)
+  dist_south_m:  0.00   # lipita de perete
+  dist_west_m:   0.71   # rest: 2.81 - 0.60 - 1.50
+
+  # ── Dulapuri (identice cu S2) ───────────────────────────────────────────────
+  # x_m = distanta de la muchia stanga a imaginii (est fizic)
+  # y_m = distanta de la muchia de sus a imaginii (perete nord)
+  wardrobes:
+    - length_m: 0.57
+      width_m:  0.38
+      x_m:      0.0
+      y_m:      2.36
+    - length_m: 0.48
+      width_m:  0.58
+      x_m:      2.33
+      y_m:      2.16
+
+  # ── Calorifer (identic cu S2) ───────────────────────────────────────────────
+  radiator:
+    length_m:          1.80
+    width_m:           0.09
+    wall:              west
+    dist_from_north_m: 0.22
+
+  # ── Poduri (cartoane intre dulapuri si canapea) ─────────────────────────────
+  # Unesc canapeaua cu dulapurile de-a lungul peretelui sud.
+  # Contur: doar fata nord (fata sud e peretele, fetele E/V sunt lipite de mobilier).
+  bridges:
+    - x_m:      0.57            # incepe la dreapta dulapului stang
+      length_m:  0.03            # = 0.60 - 0.57 (golul dintre dulap si canapea)
+      y_m:       2.36            # fata nord = nivelul dulapului stang
+      width_m:   0.38            # aceeasi adancime ca dulapul stang
+    - x_m:      2.10            # incepe la dreapta canapelei (0.60+1.50)
+      length_m:  0.23            # = 2.33 - 2.10 (golul dintre canapea si dulap drept)
+      y_m:       2.16            # fata nord = nivelul dulapului drept
+      width_m:   0.58            # aceeasi adancime ca dulapul drept
+
+  # ── Obstacole libere (cutii) — gri interior + contur negru ─────────────────
+  # x_m = distanta de la muchia stanga a imaginii (est fizic)
+  # y_m = distanta de la muchia de sus a imaginii (nord)
+  # length_m = dimensiunea in directia x (E-V in imagine)
+  # width_m  = dimensiunea in directia y (N-S in imagine)
+  obstacles:
+    - name: "cutie_mica"        # 20 x 19 cm
+      length_m:  0.20
+      width_m:   0.19
+      x_m:       0.44            # radiator_latime(0.09) + 35cm
+      y_m:       0.75            # 75cm de la perete nord
+    - name: "cutie_mare"        # 42 x 34 cm (42=N-S, 34=E-V → corect orientat)
+      length_m:  0.34            # dimensiunea E-V
+      width_m:   0.42            # dimensiunea N-S
+      x_m:       1.72            # room_length(2.81) - 75cm - 0.34 = 1.72
+      y_m:       0.67            # sofa_dist_north(1.74) - 65cm - 0.42 = 0.67
+
+s3b:
+  name: "Laborator dinamic"
+  description: "Aceeasi configuratie fizica ca S3A cu persoane in miscare"
+  # Harta Ground Truth identica cu S3A — se foloseste acelasi real_map_s3_lab.pgm

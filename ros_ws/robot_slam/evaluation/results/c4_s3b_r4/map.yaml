@@ -1,0 +1,7 @@
+﻿image: /home/robot/licenta_cosmin/catkin_ws/src/Licenta_Coldea_Cosmin/ros_ws/robot_slam/evaluation/results/c4_s3b_r4/map.pgm
+resolution: 0.050000
+origin: [-1.871082, -2.594362, 0.000000]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
+

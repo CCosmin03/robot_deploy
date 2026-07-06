@@ -1,0 +1,184 @@
+WARNING: may be using simulated time
+subscribed to [/map]
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.180
+	min: 5.544s max: 5.544s std dev: 0.00000s window: 2
+no new messages
+no new messages
+no new messages
+average rate: 0.228
+	min: 3.239s max: 5.544s std dev: 1.15233s window: 3
+no new messages
+no new messages
+average rate: 0.251
+	min: 3.154s max: 5.544s std dev: 1.10706s window: 4
+no new messages
+no new messages
+no new messages
+average rate: 0.252
+	min: 3.154s max: 5.544s std dev: 0.95923s window: 5
+no new messages
+no new messages
+no new messages
+average rate: 0.250
+	min: 3.154s max: 5.544s std dev: 0.86077s window: 6
+no new messages
+no new messages
+no new messages
+average rate: 0.247
+	min: 3.154s max: 5.544s std dev: 0.79508s window: 7
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.244
+	min: 3.154s max: 5.544s std dev: 0.74372s window: 8
+no new messages
+no new messages
+no new messages
+average rate: 0.242
+	min: 3.154s max: 5.544s std dev: 0.70272s window: 9
+no new messages
+no new messages
+no new messages
+average rate: 0.241
+	min: 3.154s max: 5.544s std dev: 0.66495s window: 10
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.239
+	min: 3.154s max: 5.544s std dev: 0.64165s window: 11
+no new messages
+no new messages
+no new messages
+average rate: 0.238
+	min: 3.154s max: 5.544s std dev: 0.61323s window: 12
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.237
+	min: 3.154s max: 5.544s std dev: 0.59111s window: 13
+no new messages
+no new messages
+no new messages
+average rate: 0.236
+	min: 3.154s max: 5.544s std dev: 0.56832s window: 14
+no new messages
+no new messages
+no new messages
+average rate: 0.236
+	min: 3.154s max: 5.544s std dev: 0.54941s window: 15
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.235
+	min: 3.154s max: 5.544s std dev: 0.53502s window: 16
+no new messages
+no new messages
+no new messages
+average rate: 0.233
+	min: 3.154s max: 5.544s std dev: 0.52631s window: 17
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.229
+	min: 3.154s max: 5.551s std dev: 0.59116s window: 18
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.225
+	min: 3.154s max: 5.758s std dev: 0.65782s window: 19
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.222
+	min: 3.154s max: 5.863s std dev: 0.71507s window: 20
+no new messages
+no new messages
+no new messages
+average rate: 0.221
+	min: 3.154s max: 5.863s std dev: 0.69759s window: 21
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.222
+	min: 3.154s max: 5.863s std dev: 0.68179s window: 22
+no new messages
+no new messages
+no new messages
+average rate: 0.222
+	min: 3.154s max: 5.863s std dev: 0.66940s window: 23
+no new messages
+no new messages
+no new messages
+average rate: 0.223
+	min: 3.154s max: 5.863s std dev: 0.65479s window: 24
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.222
+	min: 3.154s max: 5.863s std dev: 0.64108s window: 25
+no new messages
+no new messages
+no new messages
+average rate: 0.222
+	min: 3.154s max: 5.863s std dev: 0.62881s window: 26
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.222
+	min: 3.154s max: 5.863s std dev: 0.61681s window: 27
+no new messages
+no new messages
+no new messages
+average rate: 0.222
+	min: 3.154s max: 5.863s std dev: 0.60634s window: 28
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.222
+	min: 3.154s max: 5.863s std dev: 0.59572s window: 29
+no new messages
+no new messages
+no new messages
+average rate: 0.222
+	min: 3.154s max: 5.863s std dev: 0.58580s window: 30
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.222
+	min: 3.154s max: 5.863s std dev: 0.57650s window: 31
+no new messages
+no new messages
+no new messages
+average rate: 0.224
+	min: 3.154s max: 5.863s std dev: 0.60412s window: 32
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages

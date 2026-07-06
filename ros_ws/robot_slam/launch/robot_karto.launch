@@ -1,0 +1,10 @@
+﻿<launch>
+  <!-- Arguments -->
+  <arg name="model" default="my_robot"/>
+  <arg name="configuration_basename" default="lds_2d.lua"/>
+
+  <!-- slam_karto -->
+  <node pkg="slam_karto" type="slam_karto" name="slam_karto" output="screen">
+    <rosparam command="load" file="$(find robot_slam)/config/karto_mapper_params.yaml" />
+  </node>
+</launch>

@@ -1,0 +1,11 @@
+config: c2
+cpu_percent:
+  max: 105.9
+  mean: 99.31
+  n: 241
+  std: 19.22
+ram_mb:
+  max: 32.3
+  mean: 30.07
+  n: 241
+  std: 2.77

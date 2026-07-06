@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<package format="2">
+  <name>robot</name>
+  <version>1.0.0</version>
+  <description>Meta-package for the custom differential-drive robot.</description>
+  <license>Apache 2.0</license>
+  <maintainer email="coldeacosmin@gmail.com">Coldea Cosmin</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>robot_bringup</exec_depend>
+  <exec_depend>robot_description</exec_depend>
+  <exec_depend>robot_navigation</exec_depend>
+  <exec_depend>robot_slam</exec_depend>
+  <exec_depend>robot_teleop</exec_depend>
+  <export><metapackage/></export>
+</package>

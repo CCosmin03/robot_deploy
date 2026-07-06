@@ -1,0 +1,170 @@
+WARNING: may be using simulated time
+subscribed to [/map]
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.140
+	min: 7.124s max: 7.124s std dev: 0.00000s window: 2
+no new messages
+no new messages
+average rate: 0.201
+	min: 2.845s max: 7.124s std dev: 2.13945s window: 3
+no new messages
+no new messages
+no new messages
+average rate: 0.216
+	min: 2.845s max: 7.124s std dev: 1.81767s window: 4
+no new messages
+no new messages
+no new messages
+average rate: 0.221
+	min: 2.845s max: 7.124s std dev: 1.58268s window: 5
+no new messages
+no new messages
+no new messages
+average rate: 0.223
+	min: 2.845s max: 7.124s std dev: 1.42032s window: 6
+no new messages
+no new messages
+no new messages
+average rate: 0.226
+	min: 2.845s max: 7.124s std dev: 1.30084s window: 7
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.227
+	min: 2.845s max: 7.124s std dev: 1.20575s window: 8
+no new messages
+no new messages
+no new messages
+average rate: 0.227
+	min: 2.845s max: 7.124s std dev: 1.12797s window: 9
+no new messages
+no new messages
+no new messages
+average rate: 0.229
+	min: 2.845s max: 7.124s std dev: 1.06831s window: 10
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.229
+	min: 2.845s max: 7.124s std dev: 1.01360s window: 11
+no new messages
+no new messages
+no new messages
+average rate: 0.229
+	min: 2.845s max: 7.124s std dev: 0.96643s window: 12
+no new messages
+no new messages
+no new messages
+average rate: 0.229
+	min: 2.845s max: 7.124s std dev: 0.92543s window: 13
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.229
+	min: 2.845s max: 7.124s std dev: 0.88933s window: 14
+no new messages
+no new messages
+no new messages
+average rate: 0.229
+	min: 2.845s max: 7.124s std dev: 0.85726s window: 15
+no new messages
+no new messages
+no new messages
+average rate: 0.229
+	min: 2.845s max: 7.124s std dev: 0.82868s window: 16
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.224
+	min: 2.845s max: 7.124s std dev: 0.86641s window: 17
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.217
+	min: 2.845s max: 7.124s std dev: 1.02284s window: 18
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.215
+	min: 2.845s max: 7.124s std dev: 1.01892s window: 19
+no new messages
+no new messages
+no new messages
+average rate: 0.215
+	min: 2.845s max: 7.124s std dev: 0.99190s window: 20
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.215
+	min: 2.845s max: 7.124s std dev: 0.96692s window: 21
+no new messages
+no new messages
+no new messages
+average rate: 0.215
+	min: 2.845s max: 7.124s std dev: 0.94494s window: 22
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.216
+	min: 2.845s max: 7.124s std dev: 0.92366s window: 23
+no new messages
+no new messages
+no new messages
+average rate: 0.216
+	min: 2.845s max: 7.124s std dev: 0.90349s window: 24
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.216
+	min: 2.845s max: 7.124s std dev: 0.88453s window: 25
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.216
+	min: 2.845s max: 7.124s std dev: 0.86701s window: 26
+no new messages
+no new messages
+no new messages
+average rate: 0.216
+	min: 2.845s max: 7.124s std dev: 0.85134s window: 27
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.216
+	min: 2.845s max: 7.124s std dev: 0.83549s window: 28
+no new messages
+no new messages
+no new messages
+no new messages
+average rate: 0.220
+	min: 2.096s max: 7.124s std dev: 0.94656s window: 29
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages
+no new messages

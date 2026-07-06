@@ -1,0 +1,3 @@
+[monitor] caut procesul SLAM pentru c6...
+[monitor] gasit PID=16169 (cartographer_node)
+[monitor] salvat 372 esantioane -> /home/robot/licenta_cosmin/catkin_ws/src/Licenta_Coldea_Cosmin/ros_ws/turtlebot3_slam/evaluation/results/c6_s2_r4/resources.yaml

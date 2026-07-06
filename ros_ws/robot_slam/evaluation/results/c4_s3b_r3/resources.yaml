@@ -1,0 +1,11 @@
+config: c4
+cpu_percent:
+  max: 77.9
+  mean: 19.2
+  n: 237
+  std: 8.29
+ram_mb:
+  max: 32.15
+  mean: 27.36
+  n: 237
+  std: 2.98

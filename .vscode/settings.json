@@ -1,0 +1,26 @@
+{
+    "C_Cpp.default.includePath": [
+        "${workspaceFolder}/robot_control/include",
+        "${workspaceFolder}/robot_control/src",
+        "${workspaceFolder}/robot_control/lib/ros_lib",
+        "${workspaceFolder}/ros_ws/robot_slam/include",
+        "${workspaceFolder}/ros_ws/robot_bringup/src",
+        "${workspaceFolder}/ros_ws/robot_navigation/include"
+    ],
+    "C_Cpp.default.defines": [
+        "PLATFORMIO",
+        "ARDUINO_AVR_MEGA2560",
+        "F_CPU=16000000L",
+        "ARDUINO_ARCH_AVR"
+    ],
+    "C_Cpp.intelliSenseEngine": "default",
+    "files.exclude": {
+        "**/.pio": true,
+        "**/__pycache__": true
+    },
+    "search.exclude": {
+        "**/.pio": true,
+        "**/__pycache__": true,
+        "**/build": true
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>robot_slam</name>
+  <version>1.0.0</version>
+  <description>SLAM launch scripts and evaluation nodes for the custom robot.</description>
+  <license>Apache 2.0</license>
+  <maintainer email="coldeacosmin@gmail.com">Coldea Cosmin</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2</depend>
+  <exec_depend>robot_bringup</exec_depend>
+</package>

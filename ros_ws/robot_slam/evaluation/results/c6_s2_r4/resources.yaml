@@ -1,0 +1,11 @@
+config: c6
+cpu_percent:
+  max: 227.6
+  mean: 24.79
+  n: 372
+  std: 19.1
+ram_mb:
+  max: 41.48
+  mean: 31.78
+  n: 372
+  std: 5.23

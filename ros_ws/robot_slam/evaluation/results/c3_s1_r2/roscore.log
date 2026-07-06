@@ -1,0 +1,30 @@
+... logging to /home/robot/.ros/log/c3bb2cd6-7231-11f1-b758-08beac0c3c53/roslaunch-robot-desktop-21214.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;roscore
+[1mstarted roslaunch server http://robot-desktop:43263/[0m
+ros_comm version 1.14.13
+
+
+SUMMARY
+========
+
+PARAMETERS
+ * /rosdistro: melodic
+ * /rosversion: 1.14.13
+
+NODES
+
+auto-starting new master
+[1mprocess[master]: started with pid [21228][0m
+[1mROS_MASTER_URI=http://robot-desktop:11311/[0m
+]2;roscore http://robot-desktop:11311/
+[1msetting /run_id to c3bb2cd6-7231-11f1-b758-08beac0c3c53[0m
+[1mprocess[rosout-1]: started with pid [21241][0m
+started core service [/rosout]
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

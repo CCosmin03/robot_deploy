@@ -1,0 +1,11 @@
+config: c3
+cpu_percent:
+  max: 8.0
+  mean: 4.55
+  n: 280
+  std: 1.47
+ram_mb:
+  max: 20.08
+  mean: 19.43
+  n: 280
+  std: 0.28

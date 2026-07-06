@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>robot_navigation</name>
+  <version>1.0.0</version>
+  <description>Navigation launch scripts and parameters for the custom robot.</description>
+  <license>Apache 2.0</license>
+  <maintainer email="coldeacosmin@gmail.com">Coldea Cosmin</maintainer>
+  <buildtool_depend>catkin</buildtool_depend>
+  <exec_depend>amcl</exec_depend>
+  <exec_depend>map_server</exec_depend>
+  <exec_depend>dwa_local_planner</exec_depend>
+  <exec_depend>move_base</exec_depend>
+  <exec_depend>robot_bringup</exec_depend>
+</package>

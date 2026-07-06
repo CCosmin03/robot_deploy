@@ -1,0 +1,13 @@
+area_err_pct: 4.55
+config: c1
+iou: 0.7718
+map_hz: 0.211
+mape_length_pct: 1.06
+mape_mean_pct: 3.31
+mape_width_pct: 5.56
+rpe_mean: 0.0008
+rpe_std: 0.0023
+run: 5
+scenario: s1
+ssim: 0.6311
+startup_s: 6.57

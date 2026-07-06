@@ -1,0 +1,44 @@
+﻿<launch>
+  <!-- Arguments -->
+  <arg name="model"          default="my_robot"/>
+  <arg name="set_base_frame" default="base_footprint"/>
+  <arg name="set_odom_frame" default="odom_ekf"/>
+  <arg name="set_map_frame"  default="map"/>
+  <arg name="open_rviz"      default="true"/>
+  <arg name="load_robot_description" default="true"/>
+  <arg name="use_sim_time"   default="false"/>
+
+  <param name="/use_sim_time" value="$(arg use_sim_time)"/>
+
+  <group if="$(arg load_robot_description)">
+    <include file="$(find robot_bringup)/launch/robot_remote.launch">
+      <arg name="model" value="$(arg model)"/>
+    </include>
+    <!-- Publish zero wheel joint states so robot_state_publisher can broadcast wheel TF -->
+    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher"/>
+  </group>
+
+  <!-- EKF: fuses /odom (wheel encoders) + /imu (BNO055 gyro + accel) -->
+  <!-- Publishes TF: odom_ekf -> base_footprint                         -->
+  <node pkg="robot_localization" type="ekf_localization_node"
+        name="ekf_localization" output="screen" clear_params="true">
+    <rosparam command="load" file="$(find robot_slam)/config/ekf_imu.yaml"/>
+  </node>
+
+  <!-- Gmapping: uses odom_ekf TF (from EKF) instead of raw odom -->
+  <!-- Wait for EKF to start publishing TF before starting gmapping -->
+  <node pkg="gmapping" type="slam_gmapping" name="robot_slam_gmapping" output="screen"
+        launch-prefix="bash -c 'until rosnode info /ekf_localization &gt;/dev/null 2&gt;&amp;1; do sleep 0.5; done; sleep 3; exec $0 $@'"
+        respawn="true" respawn_delay="5">
+    <param name="base_frame" value="$(arg set_base_frame)"/>
+    <param name="odom_frame" value="$(arg set_odom_frame)"/>
+    <param name="map_frame"  value="$(arg set_map_frame)"/>
+    <rosparam command="load" file="$(find robot_slam)/config/gmapping_params.yaml"/>
+  </node>
+
+  <!-- RViz (reuses the same gmapping config) -->
+  <group if="$(arg open_rviz)">
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find robot_slam)/rviz/robot_gmapping.rviz"/>
+  </group>
+</launch>

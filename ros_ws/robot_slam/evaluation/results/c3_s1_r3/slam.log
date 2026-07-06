@@ -1,0 +1,69 @@
+[31m[ERROR] [1782570642.651758833, 1782540622.967300712]: Transform failed during publishing of map_odom transform: Lookup would require extrapolation into the past.  Requested time 1782540622.338957296 but the earliest data is at time 1782540622.376416978, when looking up transform from frame [base_footprint] to frame [odom][0m
+HectorSM map lvl 0: cellLength: 0.05 res x:512 res y: 512
+HectorSM map lvl 1: cellLength: 0.1 res x:256 res y: 256
+HectorSM map lvl 2: cellLength: 0.2 res x:128 res y: 128
+[0m[ INFO] [1782570629.494002755]: HectorSM p_base_frame_: base_footprint[0m
+[0m[ INFO] [1782570629.497865683]: HectorSM p_map_frame_: map[0m
+[0m[ INFO] [1782570629.497919069]: HectorSM p_odom_frame_: odom[0m
+[0m[ INFO] [1782570629.497953444]: HectorSM p_scan_topic_: scan[0m
+[0m[ INFO] [1782570629.497998496]: HectorSM p_use_tf_scan_transformation_: true[0m
+[0m[ INFO] [1782570629.498030215]: HectorSM p_pub_map_odom_transform_: true[0m
+[0m[ INFO] [1782570629.498061413]: HectorSM p_scan_subscriber_queue_size_: 5[0m
+[0m[ INFO] [1782570629.498099382]: HectorSM p_map_pub_period_: 0.500000[0m
+[0m[ INFO] [1782570629.498143288]: HectorSM p_update_factor_free_: 0.400000[0m
+[0m[ INFO] [1782570629.498177247]: HectorSM p_update_factor_occupied_: 0.900000[0m
+[0m[ INFO] [1782570629.498221153]: HectorSM p_map_update_distance_threshold_: 0.100000 [0m
+[0m[ INFO] [1782570629.498265893]: HectorSM p_map_update_angle_threshold_: 0.040000[0m
+[0m[ INFO] [1782570629.498299539]: HectorSM p_laser_z_min_value_: -0.100000[0m
+[0m[ INFO] [1782570629.498331674]: HectorSM p_laser_z_max_value_: 0.100000[0m
+... logging to /home/robot/.ros/log/bc1a20d8-7234-11f1-a740-08beac0c3c53/roslaunch-robot-desktop-28177.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/robot/licenta_cosmin/catkin_ws/src/Licenta_Coldea_Cosmin/ros_ws/turtlebot3_slam/launch/turtlebot3_hector.launch
+[1mstarted roslaunch server http://robot-desktop:36333/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /hector_mapping/advertise_map_service: True
+ * /hector_mapping/base_frame: base_footprint
+ * /hector_mapping/laser_max_dist: 3.5
+ * /hector_mapping/laser_min_dist: 0.12
+ * /hector_mapping/laser_z_max_value: 0.1
+ * /hector_mapping/laser_z_min_value: -0.1
+ * /hector_mapping/map_frame: map
+ * /hector_mapping/map_multi_res_levels: 3
+ * /hector_mapping/map_pub_period: 0.5
+ * /hector_mapping/map_resolution: 0.05
+ * /hector_mapping/map_size: 512
+ * /hector_mapping/map_start_x: 0.5
+ * /hector_mapping/map_start_y: 0.5
+ * /hector_mapping/map_update_angle_thresh: 0.04
+ * /hector_mapping/map_update_distance_thresh: 0.1
+ * /hector_mapping/odom_frame: odom
+ * /hector_mapping/pub_map_odom_transform: True
+ * /hector_mapping/pub_map_scanmatch_transform: True
+ * /hector_mapping/scan_subscriber_queue_size: 5
+ * /hector_mapping/scan_topic: scan
+ * /hector_mapping/tf_map_scanmatch_transform_frame_name: scanmatcher_frame
+ * /hector_mapping/update_factor_free: 0.4
+ * /hector_mapping/update_factor_occupied: 0.9
+ * /hector_mapping/use_tf_pose_start_estimate: False
+ * /hector_mapping/use_tf_scan_transformation: True
+ * /rosdistro: melodic
+ * /rosversion: 1.14.13
+ * /use_sim_time: True
+
+NODES
+  /
+    hector_mapping (hector_mapping/hector_mapping)
+
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/robot/licenta_cosmin/catkin_ws/src/Licenta_Coldea_Cosmin/ros_ws/turtlebot3_slam/launch/turtlebot3_hector.launch http://localhost:11311
+[1mprocess[hector_mapping-1]: started with pid [28233][0m
+[hector_mapping-1] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

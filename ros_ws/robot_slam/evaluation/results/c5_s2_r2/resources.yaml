@@ -1,0 +1,11 @@
+config: c5
+cpu_percent:
+  max: 169.8
+  mean: 19.94
+  n: 428
+  std: 12.64
+ram_mb:
+  max: 39.34
+  mean: 31.19
+  n: 428
+  std: 6.05

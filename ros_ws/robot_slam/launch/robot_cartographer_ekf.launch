@@ -1,0 +1,29 @@
+﻿<launch>
+  <!-- C5: Cartographer cu IMU prin EKF -->
+  <!-- EKF fuzioneaza /odom (encodere) + /imu (BNO055) si publica TF odom_ekf->base_footprint -->
+  <!-- Cartographer foloseste odom_ekf ca frame de odometrie si NU primeste IMU direct -->
+  <arg name="model" default="my_robot"/>
+  <arg name="configuration_basename" default="lds_2d_ekf.lua"/>
+  <arg name="use_sim_time" default="false"/>
+
+  <param name="/use_sim_time" value="$(arg use_sim_time)"/>
+
+  <!-- EKF: fuzioneaza /odom + /imu -> publica TF odom_ekf->base_footprint -->
+  <!-- Asteapta 3s ca EKF sa porneasca inainte de Cartographer -->
+  <node pkg="robot_localization" type="ekf_localization_node"
+        name="ekf_localization" output="screen" clear_params="true"
+        launch-prefix="bash -c 'sleep 2; exec $0 $@'">
+    <rosparam command="load" file="$(find robot_slam)/config/ekf_imu.yaml"/>
+  </node>
+
+  <!-- Cartographer: foloseste TF odom_ekf->base_footprint de la EKF -->
+  <node pkg="cartographer_ros" type="cartographer_node" name="cartographer_node"
+        args="-configuration_directory $(find robot_slam)/config
+              -configuration_basename $(arg configuration_basename)"
+        output="screen"
+        launch-prefix="bash -c 'until rostopic echo /tf -n 1 2>/dev/null | grep -q odom_ekf; do sleep 0.5; done; sleep 1; exec $0 $@'"/>
+
+  <node pkg="cartographer_ros" type="cartographer_occupancy_grid_node"
+        name="cartographer_occupancy_grid_node"
+        args="-resolution 0.05"/>
+</launch>

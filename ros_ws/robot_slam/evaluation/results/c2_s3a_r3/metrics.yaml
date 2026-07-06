@@ -1,0 +1,14 @@
+area_err_pct: -1.0
+completeness_pct: 100.0
+config: c2
+iou: 0.5
+map_hz: 0.189
+mape_length_pct: -1.0
+mape_mean_pct: -1.0
+mape_width_pct: -1.0
+rpe_mean: 0.0109
+rpe_std: 0.0938
+run: 3
+scenario: s3a
+ssim: 0.7056
+startup_s: 6.88
