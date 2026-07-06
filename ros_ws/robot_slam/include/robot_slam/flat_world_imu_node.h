@@ -17,7 +17,7 @@
 #ifndef FLAT_WORLD_IMU_NODE_H_
 #define FLAT_WORLD_IMU_NODE_H_
 
-#include <ros.h>
+#include <ros/ros.h>
 #include <sensor_msgs/Imu.h>
 
 #define GRAVITY 9.8

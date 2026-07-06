@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#include "../include/robot_slam/flat_world_imu_node.h"
+#include "robot_slam/flat_world_imu_node.h"
 
 FlatWorldImuNode::FlatWorldImuNode()
 {
