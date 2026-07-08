@@ -10,6 +10,7 @@
   <arg name="pub_map_odom_transform" default="true"/>
   <arg name="tf_map_scanmatch_transform_frame_name" default="scanmatcher_frame"/>
   <arg name="use_sim_time" default="false"/>
+  <arg name="open_rviz" default="true"/>
 
   <param name="/use_sim_time" value="$(arg use_sim_time)"/>
 
@@ -57,4 +58,9 @@
       <param name="pub_debug_output" value="true"/>
     -->
   </node>
+
+  <group if="$(arg open_rviz)">
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find robot_slam)/rviz/robot_hector.rviz"/>
+  </group>
 </launch>

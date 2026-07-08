@@ -23,12 +23,12 @@ mkdir -p "$RESULT_DIR"
 LOG="$RESULT_DIR/run.log"
 
 declare -A LAUNCH
-LAUNCH["c1"]="robot_gmapping.launch"
+LAUNCH["c1"]="robot_gmapping.launch open_rviz:=false"
 LAUNCH["c2"]="robot_gmapping_imu.launch open_rviz:=false load_robot_description:=false"
-LAUNCH["c3"]="robot_hector.launch"
-LAUNCH["c4"]="robot_cartographer_no_imu.launch"
-LAUNCH["c5"]="robot_cartographer_ekf.launch"
-LAUNCH["c6"]="robot_cartographer.launch"
+LAUNCH["c3"]="robot_hector.launch open_rviz:=false"
+LAUNCH["c4"]="robot_cartographer_no_imu.launch open_rviz:=false"
+LAUNCH["c5"]="robot_cartographer_ekf.launch open_rviz:=false"
+LAUNCH["c6"]="robot_cartographer.launch open_rviz:=false"
 
 declare -A SLAM_PROC
 SLAM_PROC["c1"]="slam_gmapping"

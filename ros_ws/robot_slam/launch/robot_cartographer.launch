@@ -19,6 +19,7 @@
   <arg name="model" default="my_robot"/>
   <arg name="configuration_basename" default="lds_2d.lua"/>
   <arg name="use_sim_time" default="false"/>
+  <arg name="open_rviz" default="true"/>
 
   <param name="/use_sim_time" value="$(arg use_sim_time)"/>
 
@@ -46,4 +47,9 @@
     <remap from="imu_in" to="/imu" />
     <remap from="imu_out" to="/flat_imu" />
   </node>
+
+  <group if="$(arg open_rviz)">
+    <node pkg="rviz" type="rviz" name="rviz" required="true"
+          args="-d $(find robot_slam)/rviz/robot_cartographer.rviz"/>
+  </group>
 </launch>
