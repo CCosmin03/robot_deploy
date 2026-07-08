@@ -2,6 +2,9 @@
   <arg name="model"             default="my_robot"/>
   <arg name="multi_robot_name" default=""/>
   <arg name="set_lidar_frame_id" default="base_scan"/>
+  <!-- false cand rulezi o configuratie SLAM cu EKF (c2/c5), ca sa nu existe doi
+       parinti TF concurenti pentru base_footprint (odom si odom_ekf) -->
+  <arg name="publish_odom_tf" default="true"/>
 
   <!-- Load URDF and start robot_state_publisher -->
   <include file="$(find robot_bringup)/launch/robot_remote.launch">
@@ -33,6 +36,7 @@
     <param name="wheel_radius"     value="0.03208"/>
     <param name="wheel_separation" value="0.2025"/>
     <param name="ticks_per_rev"    value="11800"/>
+    <param name="publish_tf"       value="$(arg publish_odom_tf)"/>
   </node>
 
   <node pkg="robot_bringup" type="battery_shutdown_node" name="battery_shutdown_node" output="screen"/>

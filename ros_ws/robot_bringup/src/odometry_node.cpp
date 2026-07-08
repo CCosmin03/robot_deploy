@@ -21,6 +21,7 @@ public:
     pnh.param("ticks_per_rev",    ticks_per_rev_,    11800.0);
     pnh.param("odom_frame",       odom_frame_,       std::string("odom"));
     pnh.param("base_frame",       base_frame_,       std::string("base_footprint"));
+    pnh.param("publish_tf",       publish_tf_,       true);
 
     meters_per_tick_ = (2.0 * M_PI * wheel_radius_) / ticks_per_rev_;
 
@@ -84,16 +85,19 @@ private:
 
     geometry_msgs::Quaternion odom_quat = tf::createQuaternionMsgFromYaw(theta_);
 
-    // Broadcast TF: odom -> base_footprint
-    geometry_msgs::TransformStamped tf_msg;
-    tf_msg.header.stamp            = current_time;
-    tf_msg.header.frame_id         = odom_frame_;
-    tf_msg.child_frame_id          = base_frame_;
-    tf_msg.transform.translation.x = x_;
-    tf_msg.transform.translation.y = y_;
-    tf_msg.transform.translation.z = 0.0;
-    tf_msg.transform.rotation      = odom_quat;
-    tf_broadcaster_.sendTransform(tf_msg);
+    // Broadcast TF: odom -> base_footprint (dezactivat cand EKF publica odom_ekf -> base_footprint)
+    if (publish_tf_)
+    {
+      geometry_msgs::TransformStamped tf_msg;
+      tf_msg.header.stamp            = current_time;
+      tf_msg.header.frame_id         = odom_frame_;
+      tf_msg.child_frame_id          = base_frame_;
+      tf_msg.transform.translation.x = x_;
+      tf_msg.transform.translation.y = y_;
+      tf_msg.transform.translation.z = 0.0;
+      tf_msg.transform.rotation      = odom_quat;
+      tf_broadcaster_.sendTransform(tf_msg);
+    }
 
     // Publish nav_msgs/Odometry
     nav_msgs::Odometry odom;
@@ -138,6 +142,7 @@ private:
 
   std::string odom_frame_;
   std::string base_frame_;
+  bool        publish_tf_;
 
   double    x_, y_, theta_;
   long      prev_left_ticks_, prev_right_ticks_;
