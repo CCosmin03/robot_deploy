@@ -113,48 +113,117 @@ sudo usermod -aG dialout $USER
 # apoi delogare/relogare sau reboot
 ```
 
-## 8. Rulare pipeline complet
+## 8. Rulare live (pe robot)
 
 Deschide sesiuni separate (recomand `tmux`).
 
-**Terminal 1 — bringup (bază, IMU, odometrie, LIDAR, motoare via rosserial):**
+### 8.1 Bringup (Terminal 1 — mereu primul, obligatoriu)
+
+Pornește baza, IMU, odometria, LIDAR-ul și legătura serială cu Arduino (motoare).
 
 ```bash
 roslaunch robot_bringup robot.launch
 ```
 
-**Terminal 2 — SLAM (alege un backend):**
+`odometry_node` publică mereu TF-ul `odom -> base_footprint`. La configurațiile cu EKF
+(**c2**, **c5**) mai rulează și `ekf_localization_node`, care publică `odom_ekf -> base_footprint`
+— dacă amândouă rulează în paralel, `base_footprint` ajunge cu doi părinți concurenți în
+arborele TF și robotul "sare"/pâlpâie în RViz. La c2/c5, pornește bringup-ul cu:
 
 ```bash
-roslaunch robot_slam robot_gmapping.launch
-# sau: robot_hector.launch / robot_gmapping_imu.launch / robot_karto.launch / robot_cartographer.launch
+roslaunch robot_bringup robot.launch publish_odom_tf:=false
 ```
 
-**Terminal 3 — teleop (plimbă robotul să construiască harta):**
+La c1, c3, c4, c6 lași `publish_odom_tf` implicit (`true`, nu trebuie specificat).
+
+### 8.2 SLAM (Terminal 2 — alege una din cele 6 configurații)
+
+Toate deschid RViz automat (`open_rviz:=true` implicit).
+
+| # | Comandă |
+|---|---|
+| **c1** GMap enc | `roslaunch robot_slam robot_gmapping.launch` |
+| **c2** GMap+EKF | `roslaunch robot_slam robot_gmapping_imu.launch load_robot_description:=false` |
+| **c3** Hector | `roslaunch robot_slam robot_hector.launch` |
+| **c4** Carto enc | `roslaunch robot_slam robot_cartographer_no_imu.launch` |
+| **c5** Carto+EKF | `roslaunch robot_slam robot_cartographer_ekf.launch` |
+| **c6** Carto IMU | `roslaunch robot_slam robot_cartographer.launch` (pornește și `move_base`, moștenit din structura turtlebot3 originală) |
+
+`load_robot_description:=false` se dă **doar** la c2 — e singurul fișier `.launch` care
+declară acest argument (pornește condiționat propriul `robot_state_publisher`, care ar
+duplica ce pornește deja bringup-ul). Dacă îl dai la celelalte, `roslaunch` dă eroare
+("arg not declared").
+
+### 8.3 Teleop (Terminal 3 — plimbă robotul să construiască harta)
 
 ```bash
 roslaunch robot_teleop robot_teleop_key.launch
 ```
 
-**Terminal 4 — export model (salvează harta SLAM ca "model" pentru navigație):**
+### 8.4 Salvează harta
 
 ```bash
 mkdir -p ~/maps
 rosrun map_server map_saver -f ~/maps/my_map
 ```
 
-Produce `my_map.pgm` + `my_map.yaml`. Pentru a-l folosi ca hartă implicită de navigație, suprascrie fișierele existente:
+Produce `my_map.pgm` + `my_map.yaml`. Pentru a-l folosi ca hartă implicită de navigație,
+suprascrie fișierele existente:
 
 ```bash
 cp ~/maps/my_map.pgm  ~/catkin_ws/src/robot_navigation/maps/map.pgm
 cp ~/maps/my_map.yaml ~/catkin_ws/src/robot_navigation/maps/map.yaml
 ```
 
-**Terminal 5 — navigație cu harta exportată (după ce oprești SLAM):**
+### 8.5 Navigație cu harta exportată (după ce oprești SLAM)
 
 ```bash
 roslaunch robot_navigation robot_navigation.launch
 ```
+
+## 9. Înregistrare date pentru evaluare (rosbag)
+
+```bash
+rosbag record /scan /odom /imu /tf /tf_static -O nume_inregistrare.bag
+```
+
+## 10. Evaluare offline (rosbag replay)
+
+### 10.1 Manual, pentru o singură configurație
+
+```bash
+roscore &
+rosparam set /use_sim_time true
+
+# SLAM — use_sim_time:=true + argumentele specifice din tabelul de la 8.2
+roslaunch robot_slam robot_gmapping_imu.launch use_sim_time:=true load_robot_description:=false
+# asteapta ~10s sa se initializeze nodul SLAM
+```
+
+Redarea bag-ului — la **c2** și **c5** exclude `/tf` (bag-ul are înregistrat `odom -> base_footprint`
+de la vechiul teleop/bringup, care ar intra în conflict cu EKF-ul live la fel ca la 8.1):
+
+| Config | `--topics` la `rosbag play` |
+|---|---|
+| c1, c3, c4, c6 | `/scan /odom /imu /tf /tf_static` (sau fără `--topics`, redă tot) |
+| c2, c5 | `/scan /odom /imu /tf_static` (**fără** `/tf`) |
+
+```bash
+rosbag play nume_inregistrare.bag --clock --rate 1.0 --delay 3 --topics /scan /odom /imu /tf_static
+```
+
+După ce se termină replay-ul: `rosrun map_server map_saver -f nume_harta`.
+
+### 10.2 Automat, toate cele 6 configurații x 5 rulări pentru un scenariu
+
+```bash
+cd ~/catkin_ws/src/robot_slam/evaluation/scripts
+export TURTLEBOT3_MODEL=my_robot   # verificat la pornire de script
+./run_scenario.sh s2 ~/recordings/scenariul2/
+```
+
+`run_experiment.sh` (apelat intern) are deja `open_rviz:=false` pe toate configurațiile
+(rulează headless, fără DISPLAY) și filtrează `/tf` la redare pentru c2/c5, la fel ca mai sus.
 
 ## Sanity checks utile
 

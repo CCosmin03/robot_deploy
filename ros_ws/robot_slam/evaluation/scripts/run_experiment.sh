@@ -38,6 +38,19 @@ SLAM_PROC["c4"]="cartographer_nod"
 SLAM_PROC["c5"]="cartographer_nod"
 SLAM_PROC["c6"]="cartographer_nod"
 
+# c2/c5 ruleaza EKF, care publica odom_ekf -> base_footprint. /tf din bag
+# contine odom -> base_footprint (inregistrat cu vechiul odometry_node, care
+# il publica necondiționat) — daca il redam, intra in conflict cu EKF pe
+# acelasi child frame. Excludem /tf la replay pentru aceste doua configuratii
+# si pastram doar /tf_static (transformarile statice ale robotului).
+declare -A BAG_TOPICS
+BAG_TOPICS["c1"]="/scan /odom /imu /tf /tf_static"
+BAG_TOPICS["c2"]="/scan /odom /imu /tf_static"
+BAG_TOPICS["c3"]="/scan /odom /imu /tf /tf_static"
+BAG_TOPICS["c4"]="/scan /odom /imu /tf /tf_static"
+BAG_TOPICS["c5"]="/scan /odom /imu /tf_static"
+BAG_TOPICS["c6"]="/scan /odom /imu /tf /tf_static"
+
 TUM_FILE="$RESULT_DIR/trajectory.tum"
 STARTUP_FILE="$RESULT_DIR/startup.txt"
 RESOURCE_FILE="$RESULT_DIR/resources.yaml"
@@ -96,7 +109,8 @@ HZ_PID=$!
 
 # ── 6. Play bag ────────────────────────────────────────────────────────────────
 echo "[$CONFIG $SCENARIO r$RUN_NUM] play bag" | tee -a "$LOG"
-rosbag play "$BAG_FILE" --clock --rate 1.0 --delay 3 \
+# shellcheck disable=SC2086
+rosbag play "$BAG_FILE" --clock --rate 1.0 --delay 3 --topics ${BAG_TOPICS[$CONFIG]} \
     &>> "$LOG"
 sleep 5
 
